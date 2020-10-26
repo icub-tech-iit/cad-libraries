@@ -1,5 +1,5 @@
 ---
-name: New generic labraries request
+name: New generic libraries request
 about: Request for new libraries part
 title: "[manufacturer - part number] - [short description]"
 labels: Libraries-Request
