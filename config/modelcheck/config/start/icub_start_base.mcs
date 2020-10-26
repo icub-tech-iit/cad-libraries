@@ -1,0 +1,43 @@
+! iCubTech PTC Creo ModelCHECK configuration file.
+! This file stores the checks start configuration for all models.
+!
+!  Rev.| Author               | Description                             | Date        |
+!  0   | Fiorio (IIT)         | Refactored to use ModelCHECK for CAD CI | 01 Sep 2020 |
+!
+
+# PART INFORMATION
+PRT_PARAM_UNWANTED    MASS
+PRT_PARAM_UNWANTED    PESO
+PRT_PARAM_UNWANTED    VOLUME
+
+PRT_COMMENT     /* settaggio parametro materiale=materiale assegnato
+PRT_RELATION	material=ptc_material_name
+PRT_COMMENT     /* needed for exporting BOM with old parameters
+PRT_RELATION	denominazione=description
+
+# ASSEMBLY INFORMATION
+ASM_COMMENT     /* needed for exporting BOM with old parameters
+ASM_RELATION	denominazione=description
+
+# DRAWING INFORMATION
+DRW_FORMAT	icub_a0_ass
+DRW_FORMAT	icub_a1_ass
+DRW_FORMAT	icub_a2_ass
+DRW_FORMAT	icub_a3_ass
+DRW_FORMAT	icub_a4_ass
+DRW_FORMAT	icub_a0_mech
+DRW_FORMAT	icub_a1_mech
+DRW_FORMAT	icub_a2_mech
+DRW_FORMAT	icub_a3_mech
+DRW_FORMAT	icub_a4_mech
+
+# STANDARD LIST FILE NAMES
+STD_DRW_DTL_FILE	DEFAULT ..\..\std_fmt.dtl
+PRT_TEMPLATE            ..\..\standard_files\start_part.prt
+ASM_TEMPLATE            ..\..\standard_files\start_asm.asm
+
+STD_USER_LIST_FILE	text/icub_lists.txt
+
+MC_REGEN_CONFIG_FILE	text/mc_regen.mcr
+
+#CUSTOM_CHECKS_FILE	text/custom.txt

@@ -23,6 +23,7 @@ search_path ".\libraries\electronics\commercial_boards"
 search_path ".\libraries\electronics\custom_boards"
 search_path ".\libraries\electronics\motors"
 search_path ".\libraries\electronics\plug_components"
+search_path ".\libraries\electronics\pannel_components
 search_path ".\libraries\fasteners"
 
 !

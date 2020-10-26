@@ -1,0 +1,97 @@
+﻿ND_RelParSet_K01 = {
+
+Name = SLS-PA603-CF
+
+PARAMETERS =
+{
+  Name = PTC_MATERIAL_DESCRIPTION
+  Type = String
+  Default = 'PA 603-CF is a carbon fiber filled nylon 12'
+  Access = Full
+},
+{
+  Name = TEMPERATURE
+  Type = Real
+  Default = 0.000000e+00 C
+  Access = Full
+},
+{
+  Name = PTC_INITIAL_BEND_Y_FACTOR
+  Type = Real
+  Default = 5.000000e-01
+  Access = Full
+},
+{
+  Name = PTC_BEND_TABLE
+  Type = String
+  Default = ''
+  Access = Full
+},
+{
+  Name = PTC_MATERIAL_TYPE
+  Type = Integer
+  Default = 9
+  Access = Locked
+},
+{
+  Name = PTC_FAILURE_CRITERION_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_FATIGUE_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_MATERIAL_SUB_TYPE
+  Type = String
+  Default = 'LINEAR'
+  Access = Locked
+},
+{
+  Name = PTC_MASS_DENSITY
+  Type = Real
+  Default = 1.100000e-06 kg/mm^3
+  Access = Full
+},
+{
+  Name = PTC_DEFAULT_APPEARANCE
+  Type = String
+  Default = 'plastic-matte-black'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_1
+  Type = String
+  Default = 'nylon_ptc'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_2
+  Type = String
+  Default = 'sls-pa603-cf'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_3
+  Type = String
+  Default = '<plastic-matte-black>'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_4
+  Type = String
+  Default = 'plastic-matte-black'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_5
+  Type = String
+  Default = '<sls-pa603-cf_new_app>'
+  Access = Full
+}
+
+}

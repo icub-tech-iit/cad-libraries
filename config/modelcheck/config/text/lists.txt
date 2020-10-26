@@ -1,0 +1,37 @@
+#ICUB LIST
+
+LIST_MATERIAL    ERGAL70
+LIST_MATERIAL    17-4PH
+LIST_MATERIAL    PA
+
+LIST_REV         0
+LIST_REV         A1
+LIST_REV         A2
+LIST_REV         A3
+LIST_REV         A4
+LIST_REV         A5
+LIST_REV         A6
+
+
+LIST_CSYS  STD
+LIST_CSYS  KSK
+LIST_CSYS  KSG
+LIST_CSYS  KSM
+
+LIST_DEF            X-0
+LIST_DEF            Z-0
+LIST_DEF            Y-0
+
+
+LIST_ITEMS           AMARIE
+LIST_ITEMS           NELSON
+
+LIST_FEAT            HOLE
+LIST_FEAT            ROUND
+LIST_FEAT            CUT
+
+LIST_PRJ_NO          A_*
+LIST_PRJ_NO          B-##-##
+LIST_PRJ_NO          CJ-##-##
+LIST_PRJ_NO          D_*
+

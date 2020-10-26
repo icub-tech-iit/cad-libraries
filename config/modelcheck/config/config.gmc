@@ -1,0 +1,30 @@
+M1_TINY_ELMNT                 E     0.020
+M2_IDENTICAL_ELMNT            E     0.020
+M3A_POSITION_CONT             E     0.020
+M3B_TANG_CONT                 N     0.100
+M3C_CURV_CONT                 N    10.000
+M4_POLYN_DEG                  E        11
+M5_WAVINESS                   E
+M6_KNOT_DIST                  E     0.020
+C7_SELF_DIST                  E     0.020
+D28_IGES_TEXT                 N
+SU8_TINY_SEG_EDGE             E     0.200
+SU9_TINY_CURV_RAD             E     0.500
+SU10_BOUND_ANGLE              E     2.000
+SU11_NORM_REVERSAL            E
+SU12_PATCH_DIST               E
+SU13_UNOC_PATCH_ROW           E
+F14_BOUND_DIST                E     0.020
+F15_SURF_DIST                 E     0.020
+F16_SIM_ORIENT                N
+F17_NUM_SEG                   E         2
+T18_NUM_FACE                  E         3
+T19_NORMAL_ORIENT             N
+T20_KNIFE_EDGES               E     2.000
+SO21_DIST_VERT_EDGE           E     0.020
+SO22_DIST_VERT_FACE           E     0.020
+SO23_HIST_DELETE              N
+SO24_EXTRA_GEOM               E
+SO25_CAVITIES                 E
+SO26_MULT_BODY                E
+SO27_MULT_SOLID               E

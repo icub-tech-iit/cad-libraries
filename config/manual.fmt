@@ -1,0 +1,4 @@
+.breakdown
+%$name .%$type .%Description
+.row .%$name[-30.30s]; .%$quantity[-2.2s]; .%$type[-12.12s]; .%tipo[-14.14s];
+

@@ -1,0 +1,18 @@
+!Start of pen table file
+!GEOMETRY(WHITE), CURVES(BROWN), VOLUME (MAGENTA)
+pen 1 thickness 0.008 in; drawing_color
+!LETTER (YELLOW)
+pen 2 thickness 0.002 in; letter_color
+!HIDDEN (GRAY)
+pen 3 thickness 0.004 in; dimmed_color; half_tone_color
+!HIGHLIGHT (RED)
+pen 4 thickness 0.004 in; highlite_color
+!SHEET METAL (GREEN)
+pen 5 thickness 0.002 in; attention_color
+!SECTION (CYAN)
+pen 6 thickness 0.005 in; section_color
+! DIMMED MENU (GRAY)
+pen 7 thickness 0.005 in; magenta_color
+!EDGE HIGH (BLUE)
+pen 8 thickness 0.005 in; edge_highlite_color
+!end of pen table file

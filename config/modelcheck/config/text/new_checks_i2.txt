@@ -1,0 +1,55 @@
+New check config options
+------------------------
+
+REGEN_WRNS           YNEW       W       N       N       N       Y
+FEATURE_INFO         YN         Y       N       N       N       N
+LAYER_ITEM_LIST      YN         Y       Y       N       N       Y
+LAYER_ITEM_STD       YNEW       E       Y       N       N       Y
+DUPLICATE_MODELS     YNEW       E       Y       W       W       Y
+PRO_VERSION          YNEW       E       Y       N       N       Y
+CYL_DIAMS            YNEW       Y       Y       N       N       N
+EARLY_COSMETIC       YNEW       W       Y       N       N       N
+EDGE_REFERENCES      YNEW       W       Y       N       N       N
+SIMPREP_NAME         YNEW       E       W       N       N       N
+SIMPREP_INFO         YN         Y       Y       N       N       N
+ 
+NUM_DRAW_SHEETS      YNEW       E       Y       N       N       N
+UNUSED_SHEETS        YNEW       E       Y       N       N       N
+IGNORE_SHEETS        YN         Y       N       N       N       N
+
+BULK_ITEMS           YNEW       W       Y       N       N       Y
+UNPL_COMPONENTS      YNEW       W       Y       N       N       Y
+
+Obsolete check config options
+-----------------------------
+
+ABS_ACCURACY
+
+
+New condition options
+---------------------
+
+IF (DATE_CREATED GTE 19970418) config=(check/default_checks.mch)(start/sample_start.mcs)(constant/mm.mcn)
+IF (PRO_VERSION GTE 199842) config=(check/default_checks.mch)(start/sample_start.mcs)(constant/mm.mcn)
+
+
+New config_init options
+-----------------------
+
+DIR_MC_DUP_READ  c:\temp
+DIR_MC_DUP_WRITE c:\temp
+
+# Highlight Color
+HIGHLIGHT_COLOR  	Blue
+PARENT_HI_COLOR		Red
+
+# Duplicate models - Automatically add dup model info to text file
+ADD_DUP_INFO_AUTO YN            N	N	N	Y
+
+
+New constant options
+--------------------
+
+PERC_EARLY_COSMETIC  0.7
+MAX_ABS_ACCURACY     0.0030
+MAX_DRAW_SHEETS      9

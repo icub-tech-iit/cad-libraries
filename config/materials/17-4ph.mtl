@@ -1,0 +1,109 @@
+﻿ND_RelParSet_K01 = {
+
+Name = 17-4PH
+
+PARAMETERS =
+{
+  Name = PTC_MATERIAL_DESCRIPTION
+  Type = String
+  Default = 'data from http://www.aksteel.com/pdf/markets_products/stainless/precipitation/17'
+  Access = Full
+},
+{
+  Name = TEMPERATURE
+  Type = Real
+  Default = 0.000000e+00 C
+  Access = Full
+},
+{
+  Name = PTC_INITIAL_BEND_Y_FACTOR
+  Type = Real
+  Default = 6.400000e-01
+  Access = Full
+},
+{
+  Name = PTC_BEND_TABLE
+  Type = String
+  Default = '17-4PH'
+  Access = Full
+},
+{
+  Name = PTC_MATERIAL_TYPE
+  Type = Integer
+  Default = 9
+  Access = Locked
+},
+{
+  Name = PTC_FAILURE_CRITERION_TYPE
+  Type = String
+  Default = 'DISTORTION ENERGY (VON MISES)'
+  Access = Locked
+},
+{
+  Name = PTC_FATIGUE_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_MATERIAL_SUB_TYPE
+  Type = String
+  Default = 'LINEAR'
+  Access = Locked
+},
+{
+  Name = PTC_MASS_DENSITY
+  Type = Real
+  Default = 7.800000e-06 kg/mm^3
+  Access = Full
+},
+{
+  Name = PRO_UNIT_SYS
+  Type = String
+  Default = 'Custom'
+  Access = Full
+},
+{
+  Name = PTC_XHATCH_FILE
+  Type = String
+  Default = '17-4PH'
+  Access = Full
+},
+{
+  Name = PTC_TENSILE_YIELD_STRESS
+  Type = Real
+  Default = 1.000000e+03 MPa
+  Access = Full
+},
+{
+  Name = PTC_YOUNG_MODULUS
+  Type = Real
+  Default = 1.970000e+02 GPa
+  Access = Full
+},
+{
+  Name = PTC_POISSON_RATIO
+  Type = Real
+  Default = 2.720000e-01
+  Access = Full
+},
+{
+  Name = PTC_THERMAL_EXPANSION_COEF
+  Type = Real
+  Default = 1.170000e-05 /C
+  Access = Full
+},
+{
+  Name = PTC_THERMAL_CONDUCTIVITY
+  Type = Real
+  Default = 4.301250e+01 N /(sec C)
+  Access = Full
+},
+{
+  Name = PTC_SPECIFIC_HEAT
+  Type = Real
+  Default = 4.733410e+08 mm^2/(sec^2 C)
+  Access = Full
+}
+
+}

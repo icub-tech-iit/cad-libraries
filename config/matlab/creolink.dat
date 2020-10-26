@@ -1,0 +1,19 @@
+# Revision
+# 1 - (05-06-2020) - Savoldi - Added path for MATLAB 2020a
+
+
+# ATTENTION!
+# Digit the thrue path in the row 3 and 4. Same path where you installed matlab ( in case you used "default" setting, could be the same path)
+
+
+name Simscape Multibody Link
+startup dll
+
+exec_file C:\Program Files\MATLAB\R2016a\bin\win64\cl_proe2sm.dll
+text_dir C:\Program Files\MATLAB\R2016a\toolbox\physmod\smlink\cad_systems\proe\text
+
+exec_file C:\Program Files\MATLAB\R2020a\bin\win64\cl_proe2sm.dll
+text_dir C:\Program Files\MATLAB\R2020a\toolbox\physmod\smlink\cad_systems\proe\text
+
+unicode_encoding false
+end

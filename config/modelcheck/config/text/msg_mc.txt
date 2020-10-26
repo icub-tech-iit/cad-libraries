@@ -1,0 +1,24 @@
+%CILabel1
+Heavy Config		
+
+
+%CILabel2
+Medium Config		
+
+
+%CILabel3
+Light Config		
+
+
+%CIMessage1
+Select Heavy Config from setconf.mcc.		
+
+
+%CIMessage2
+Select Medium Config from setconf.mcc.		
+
+
+%CIMessage3
+Select Light from setconf.mcc.		
+
+

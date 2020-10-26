@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!--UGC_VERSION = 1024-->
+<XML_DOCUMENT xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+    <PTC_HEADER>
+        <VENDOR>Parametric Technology Corporation</VENDOR>
+        <PRODUCT>Creo Parametric 3302013150</PRODUCT>
+        <XML_VERSION>1.0</XML_VERSION>
+        <HOST_NAME>IITICUBLAP002</HOST_NAME>
+        <USER>Alberto Parmiggiani</USER>
+        <MACHINE_TYPE> Intel64 Family 6 Model 58 Stepping 9  GenuineIntel  2890 MHz</MACHINE_TYPE>
+    </PTC_HEADER>
+    <cond_block pointer="TRUE" sel_option="part" mdl_trv_flag="1035">
+        <oper_arr SOAP-ENC:Array="[1]">
+            <entry>-1</entry>
+        </oper_arr>
+        <rules_arr SOAP-ENC:Array="[1]">
+            <rules_arr_ENTRY pointer="TRUE" rule_type="4" sel_option="part" lookby_index="10" selopt_index="10">
+                <rule_value__PO__ddt_expr_data__PC__ operand="3" pointer="TRUE" des_type="0" param_name="Pro_mp_density" param_type="50" value_name="0.000009" param_scope="0" param_name_msgid="-1."/>
+            </rules_arr_ENTRY>
+        </rules_arr>
+        <scope pointer="TRUE" scope_id="-1" scope_type="326" qry_mdl_name="CER_008_A_001" qry_mdl_type="1" incl_submodels="1">
+            <plin_ptr type="9408" dim_id="-1" offset="0." ref_id="-1" pointer="TRUE" memb_num1="0" memb_num2="0" geometry1_id="-1" geometry2_id="-1">
+                <attr SOAP-ENC:Array="[3]">
+                    <entry>0</entry>
+                    <entry>0</entry>
+                    <entry>0</entry>
+                </attr>
+                <plin_info_arr SOAP-ENC:Array="[1]">
+                    <plin_info_arr_ENTRY type="1" pointer="TRUE">
+                        <data__PO__plin_info_ref__PC__ offset2="0." pointer="TRUE" id_type1="2" id_type2="-4"/>
+                    </plin_info_arr_ENTRY>
+                </plin_info_arr>
+                <uv SOAP-ENC:Array="[2]">
+                    <entry>0.</entry>
+                    <entry>0.</entry>
+                </uv>
+            </plin_ptr>
+        </scope>
+    </cond_block>
+</XML_DOCUMENT>

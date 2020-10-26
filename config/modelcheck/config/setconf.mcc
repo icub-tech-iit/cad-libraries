@@ -1,0 +1,5 @@
+# ModelCHECK text file to name configurations to use for Heavy, Medium, Light
+# 8-18-99 (amn)
+#Heavy =(check/demo_checks.mch)(start/default_start.mcs)(constant/inch.mcn)
+Medium =(check/icub_checks.mch)(start/icub_start.mcs)(constant/mm.mcn)
+#Light =(check/simple_checks.mch)(start/default_start.mcs)(constant/inch.mcn)

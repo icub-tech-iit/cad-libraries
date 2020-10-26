@@ -1,0 +1,14 @@
+Assembly breakdown
+.breakdown
+%$type : %$name Rev %rev -  %Description
+.titles Qt.y;Code;Rev;Description;Type;Mass
+.row %$name[-35.35s];%rev[-2.2s];%$quantity[-4d];%denominazione[-60.60s];%$type[-9.9s];%mass[-8.4d];
+Total assembly mass: %[$total($mass)][-8.4d] 
+
+SUMMARY
+.summary
+.titles  Qt.y;Code;Rev;Mass;Type;
+.row %$quantity[-4d];%$name[-34.34s];%rev[-3.3s];%mass[-8.4d];%tipo[-14.14s];
+
+Total part count: %[$total($quantity)][-5d] 
+

@@ -1,0 +1,822 @@
+V5.0
+#
+#
+# PGL Version 5.0
+#
+#
+# material name
+material_name "ref_color1"
+# ambient color
+ambient_color 0.878400 0.949000 1.000000 1.000000
+# diffuse color
+diffuse_color 0.878400 0.949000 1.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.800000
+# ambient
+ambient 0.500000
+# shine
+shine 0.130000
+# shine intensity
+intensity 0.130000
+# reflection
+reflection 0.250000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_814_2x"
+# ambient color
+ambient_color 0.439000 0.247000 0.686000 1.000000
+# diffuse color
+diffuse_color 0.439000 0.247000 0.686000 1.000000
+# specular color
+specular_color 0.439000 0.247000 0.686000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.200000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_813_2x"
+# ambient color
+ambient_color 0.820000 0.000000 0.518000 1.000000
+# diffuse color
+diffuse_color 0.820000 0.000000 0.518000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_812_2x"
+# ambient color
+ambient_color 0.988000 0.027000 0.310000 1.000000
+# diffuse color
+diffuse_color 0.988000 0.027000 0.310000 1.000000
+# specular color
+specular_color 0.988000 0.027000 0.310000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.200000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_811_2x"
+# ambient color
+ambient_color 1.000000 0.329000 0.086000 1.000000
+# diffuse color
+diffuse_color 1.000000 0.329000 0.086000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_810_2x"
+# ambient color
+ambient_color 1.000000 0.737000 0.129000 1.000000
+# diffuse color
+diffuse_color 1.000000 0.737000 0.129000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_809_2x"
+# ambient color
+ambient_color 0.839000 0.839000 0.047000 1.000000
+# diffuse color
+diffuse_color 0.839000 0.839000 0.047000 1.000000
+# specular color
+specular_color 0.839000 0.839000 0.047000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.200000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_808_2x"
+# ambient color
+ambient_color 0.000000 0.627000 0.529000 1.000000
+# diffuse color
+diffuse_color 0.000000 0.627000 0.529000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_807_2x"
+# ambient color
+ambient_color 0.749000 0.000000 0.549000 1.000000
+# diffuse color
+diffuse_color 0.749000 0.000000 0.549000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_806_2x"
+# ambient color
+ambient_color 0.969000 0.008000 0.486000 1.000000
+# diffuse color
+diffuse_color 0.969000 0.008000 0.486000 1.000000
+# specular color
+specular_color 0.969000 0.008000 0.486000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.200000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_805_2x"
+# ambient color
+ambient_color 0.976000 0.227000 0.169000 1.000000
+# diffuse color
+diffuse_color 0.976000 0.227000 0.169000 1.000000
+# specular color
+specular_color 0.976000 0.227000 0.169000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.200000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_804_2x"
+# ambient color
+ambient_color 1.000000 0.498000 0.118000 1.000000
+# diffuse color
+diffuse_color 1.000000 0.498000 0.118000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_803_2x"
+# ambient color
+ambient_color 1.000000 0.847000 0.086000 1.000000
+# diffuse color
+diffuse_color 1.000000 0.847000 0.086000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_802_2x"
+# ambient color
+ambient_color 0.110000 0.808000 0.157000 1.000000
+# diffuse color
+diffuse_color 0.110000 0.808000 0.157000 1.000000
+# specular color
+specular_color 0.110000 0.808000 0.157000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.200000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_801_2x"
+# ambient color
+ambient_color 0.000000 0.537000 0.686000 1.000000
+# diffuse color
+diffuse_color 0.000000 0.537000 0.686000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_485_2x"
+# ambient color
+ambient_color 0.800000 0.047000 0.000000 1.000000
+# diffuse color
+diffuse_color 0.800000 0.047000 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_471_2x"
+# ambient color
+ambient_color 0.639000 0.267000 0.008000 1.000000
+# diffuse color
+diffuse_color 0.639000 0.267000 0.008000 1.000000
+# specular color
+specular_color 0.639000 0.267000 0.008000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.200000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_464_2x"
+# ambient color
+ambient_color 0.439000 0.259000 0.078000 1.000000
+# diffuse color
+diffuse_color 0.439000 0.259000 0.078000 1.000000
+# specular color
+specular_color 0.439000 0.259000 0.078000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.200000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_452_2x"
+# ambient color
+ambient_color 0.000000 0.600000 0.267000 1.000000
+# diffuse color
+diffuse_color 0.000000 0.600000 0.267000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_433_2x"
+# ambient color
+ambient_color 0.039000 0.047000 0.067000 1.000000
+# diffuse color
+diffuse_color 0.039000 0.047000 0.067000 1.000000
+# specular color
+specular_color 0.039000 0.047000 0.067000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.200000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_382_2x"
+# ambient color
+ambient_color 0.620000 0.769000 0.000000 1.000000
+# diffuse color
+diffuse_color 0.620000 0.769000 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_375_2x"
+# ambient color
+ambient_color 0.329000 0.737000 0.000000 1.000000
+# diffuse color
+diffuse_color 0.329000 0.737000 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_368_2x"
+# ambient color
+ambient_color 0.000000 0.620000 0.059000 1.000000
+# diffuse color
+diffuse_color 0.000000 0.620000 0.059000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_327_2x"
+# ambient color
+ambient_color 0.000000 0.537000 0.467000 1.000000
+# diffuse color
+diffuse_color 0.000000 0.537000 0.467000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_320_2x"
+# ambient color
+ambient_color 0.000000 0.498000 0.510000 1.000000
+# diffuse color
+diffuse_color 0.000000 0.498000 0.510000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_306_2x"
+# ambient color
+ambient_color 0.000000 0.639000 0.820000 1.000000
+# diffuse color
+diffuse_color 0.000000 0.639000 0.820000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_299_2x"
+# ambient color
+ambient_color 0.000000 0.498000 0.800000 1.000000
+# diffuse color
+diffuse_color 0.000000 0.498000 0.800000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_2592_2x"
+# ambient color
+ambient_color 0.447000 0.000000 0.510000 1.000000
+# diffuse color
+diffuse_color 0.447000 0.000000 0.510000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_239_2x"
+# ambient color
+ambient_color 0.769000 0.020000 0.486000 1.000000
+# diffuse color
+diffuse_color 0.769000 0.020000 0.486000 1.000000
+# specular color
+specular_color 0.769000 0.020000 0.486000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.200000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_185_2x"
+# ambient color
+ambient_color 0.820000 0.086000 0.000000 1.000000
+# diffuse color
+diffuse_color 0.820000 0.086000 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_1788_2x"
+# ambient color
+ambient_color 0.839000 0.129000 0.000000 1.000000
+# diffuse color
+diffuse_color 0.839000 0.129000 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_165_2x"
+# ambient color
+ambient_color 0.918000 0.310000 0.000000 1.000000
+# diffuse color
+diffuse_color 0.918000 0.310000 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_130_2x"
+# ambient color
+ambient_color 0.886000 0.569000 0.000000 1.000000
+# diffuse color
+diffuse_color 0.886000 0.569000 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.000000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "pantone_116_2x"
+# ambient color
+ambient_color 0.969000 0.710000 0.047000 1.000000
+# diffuse color
+diffuse_color 0.969000 0.710000 0.047000 1.000000
+# specular color
+specular_color 0.969000 0.710000 0.047000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.250000
+# reflection
+reflection 0.200000
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0

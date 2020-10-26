@@ -1,0 +1,7 @@
+# Custom Check File
+#
+# CUSTOM1
+DEF_CUSTOM1 (DTM_PLANE_INFO/REG_FEATURES)
+CND_CUSTOM1 LT 0.30
+MSG_CUSTOM1 CUSTOM: Number of datum planes as a percentage of all features
+ERM_CUSTOM1 CUSTOM: Number of datum planes exceeds 30% of the total features

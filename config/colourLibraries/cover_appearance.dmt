@@ -1,0 +1,177 @@
+﻿V7.0
+#
+#
+# PGL Version 7.0
+#
+#
+# material name
+material_name "ref_color1242"
+# material label
+material_label "ptc-std-gold"
+# material description
+material_description "standard appearance representing gold material"
+# material keywords
+material_keywords "ptc standard gold metal"
+# ambient color
+ambient_color 1.000000 0.807843 0.498039 1.000000
+# diffuse color
+diffuse_color 1.000000 0.807843 0.498039 1.000000
+# specular color
+specular_color 0.964706 1.000000 0.839216 1.000000
+# diffuse
+diffuse 0.800000
+# ambient
+ambient 0.550000
+# shine
+shine 0.600000
+# shine intensity
+intensity 0.600000
+# reflection
+reflection 0.100000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color1243"
+# material label
+material_label "ral 5010"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+# ambient color
+ambient_color 0.000000 0.271000 0.475000 1.000000
+# diffuse color
+diffuse_color 0.000000 0.271000 0.475000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 0.900000
+# ambient
+ambient 0.900000
+# shine
+shine 0.500000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.250000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color778"
+# material label
+material_label "fullcure_transparent"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type ceramic_shader "ceramic_porceline"
+color_param 1.000000 1.000000 0.949000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.700000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.990000 1.000000 0.949000 "refr_color"
+float_param 0.250000 "refr_gloss"
+float_param 0.560000 "transparency"
+float_param 5.860000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "generic_plastic"
+color_param 0.990000 1.000000 0.949000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.500000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type misc_shader "misc_emissive"
+color_param 0.990000 1.000000 0.949000 "diffuse"
+float_param 1.000000 "emissive_intensity"
+shader_enabled 0
+shader_type paint_shader "generic_paint"
+color_param 0.990000 1.000000 0.949000 "diffuse"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+# ambient color
+ambient_color 0.990000 1.000000 0.949000 1.000000
+# diffuse color
+diffuse_color 0.990000 1.000000 0.949000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.550000
+# shine
+shine 1.000000
+# shine intensity
+intensity 1.000000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.360000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
