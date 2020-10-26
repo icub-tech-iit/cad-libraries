@@ -64,7 +64,7 @@ display_annotations no
 !
 ! File Storage & Retrival _________________________________
 !
-pro_library_dir .\commercial\objlib
+!pro_library_dir .\commercial\objlib
 pro_material_dir .\config\materials
 rename_drawings_with_object both
 save_dialog_for_existing_models yes
@@ -154,8 +154,8 @@ default_ext_ref_scope skeleton_model
 !
 ! Simulation _______________________________________________
 !
-sim_run_out_dir .\output dir
-sim_run_tmp_dir .\output dir
+sim_run_out_dir .\output_dir
+sim_run_tmp_dir .\output_dir
 !
 !
 ! Mapkeys ____________________________________________________
