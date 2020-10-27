@@ -65,6 +65,7 @@ search_path ".\..\cad-mechanics\projects\gadgets\rc_090_stand\stand_icub3"
 search_path ".\..\cad-mechanics\projects\gadgets\ic_002_FTSensor58_mounting_tool"
 search_path ".\..\cad-mechanics\projects\gadgets\ig_001_FTSensor45_mounting_tool"
 search_path ".\..\cad-mechanics\projects\gadgets\ig_012_stand_safety_protection"
+search_path ".\..\cad-mechanics\projects\gadgets\ig_017_r1_arm_test_setup"
 !
 search_path ".\..\cad-mechanics\projects\icub"
 search_path ".\..\cad-mechanics\projects\icub\common"
