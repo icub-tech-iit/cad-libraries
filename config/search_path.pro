@@ -84,17 +84,17 @@ search_path ".\..\cad-mechanics\projects\icub\koroibot"
 !
 search_path ".\..\cad-mechanics\projects\simulation_model"
 !
-search_path ".\..\mechatronics\
-search_path ".\..\mechatronics\project\pcb_an_layout
-search_path ".\..\mechatronics\project\pcb_an_layout\AMC_and_AMC-BLDC
-search_path ".\..\mechatronics\project\pcb_an_layout\FAP
-search_path ".\..\mechatronics\project\pcb_an_layout\FFAP
-search_path ".\..\mechatronics\project\pcb_an_layout\FTX
-search_path ".\..\mechatronics\project\pcb_an_layout\PMC-L
-search_path ".\..\mechatronics\project\pcb_an_layout\PSC
-search_path ".\..\mechatronics\project\pcb_an_layout\RFE
-search_path ".\..\mechatronics\project\pcb_an_layout\RSB48
-search_path ".\..\mechatronics\project\pcb_an_layout\UZCB
+search_path ".\..\mechatronics\"
+search_path ".\..\mechatronics\project\pcb_an_layout"
+search_path ".\..\mechatronics\project\pcb_an_layout\AMC_and_AMC-BLDC"
+search_path ".\..\mechatronics\project\pcb_an_layout\FAP"
+search_path ".\..\mechatronics\project\pcb_an_layout\FFAP"
+search_path ".\..\mechatronics\project\pcb_an_layout\FTX"
+search_path ".\..\mechatronics\project\pcb_an_layout\PMC-L"
+search_path ".\..\mechatronics\project\pcb_an_layout\PSC"
+search_path ".\..\mechatronics\project\pcb_an_layout\RFE"
+search_path ".\..\mechatronics\project\pcb_an_layout\RSB48"
+search_path ".\..\mechatronics\project\pcb_an_layout\UZCB"
 !search_path ".\..\mechatronics\project\pcb_an_layout\..
 !search_path ".\..\mechatronics\project\sandbox\..
 !
