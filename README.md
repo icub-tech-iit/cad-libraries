@@ -1,13 +1,14 @@
 # cad-libraries
 In this repository we store the CAD libraries and the PTC Creo configuration files.
 You have to use it to work with all iCub-tech CAD project.
-Please follow following rules before use the repository
+Please read the following rules before using the repository.
+
 ## Rules
-- Only  authorized can modify all files in the repository
-- Before to modify the library parts , it's mandatory open a issue request. Following all request you can open
- - New/Modification electronic CAD part
- - New/Modification mechanical CAD parts
- - creation/Modification electronic board
- - generic issue
-- All CAD parts must be saved with "EDU converter" license
-- it's forbidden save in this repository parts with copyright or MBO
+- Changes in this repository must be requested through pull requests from personal forks
+- In order to modify the libraries it's mandatory to open a dedicated issue request. Here a list of all requests that can be opened:
+  - New/Modification electronic CAD part
+  - New/Modification mechanical CAD part
+  - Creation/Modification of an electronic board
+  - generic issue
+- All CAD parts must be saved with `COMMERCIAL` license
+- It's forbidden to commit parts subject to copyright or MBO
