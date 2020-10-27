@@ -1,6 +1,7 @@
 # cad-libraries
-In this repository we store the CAD libraries and the PTC Creo configuration files.
-You have to use it to work with all iCub-tech CAD project.
+In this repository we store the CAD libraries and the PTC Creo configuration files.   
+You have to use it to work with all iCub-tech CAD project.  
+
 Please read the following rules before using the repository.
 
 ## Rules
