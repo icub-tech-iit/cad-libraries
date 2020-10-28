@@ -13,3 +13,10 @@ Please read the following rules before using the repository.
   - generic issue
 - All CAD parts must be saved with `COMMERCIAL` license
 - It's forbidden to commit parts subject to copyright or MBO
+
+## 👨🏻‍💻 Maintainers
+This repository is maintained by:
+
+| | |
+|:---:|:---:|
+| [<img src="https://github.com/marcellosavoldi.png" width="40">](https://github.com/marcellosavoldi) | [@marcellosavoldi](https://github.com/marcellosavoldi) |
