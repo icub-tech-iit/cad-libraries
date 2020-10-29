@@ -54,7 +54,7 @@ PARAMETERS =
 {
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 1.176000e+00 g/cm^3
+  Default = 1.176000e-06 kg/mm^3
   Access = Full
 },
 {
@@ -96,7 +96,25 @@ PARAMETERS =
 {
   Name = PTC_DEFAULT_APPEARANCE
   Type = String
-  Default = '<vero_black_new_app>'
+  Default = 'plastic-injected-black'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_3
+  Type = String
+  Default = '<vero_black_new_app> - 1'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_4
+  Type = String
+  Default = 'plastic-injected-black'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_5
+  Type = String
+  Default = '<plastic-injected-black>'
   Access = Full
 }
 

@@ -54,7 +54,7 @@ PARAMETERS =
 {
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 1.176000e+00 g/cm^3
+  Default = 1.176000e-06 kg/mm^3
   Access = Full
 },
 {
@@ -84,25 +84,49 @@ PARAMETERS =
 {
   Name = PTC_APPEARANCE_1
   Type = String
-  Default = 'epoxy_ptc'
+  Default = 'fullcure_transparent'
   Access = Full
 },
 {
   Name = PTC_APPEARANCE_2
   Type = String
-  Default = 'trasparent_new_app'
+  Default = 'epoxy_ptc'
   Access = Full
 },
 {
   Name = PTC_APPEARANCE_3
   Type = String
-  Default = '<epoxy_ptc>'
+  Default = 'trasparent_new_app'
   Access = Full
 },
 {
   Name = PTC_DEFAULT_APPEARANCE
   Type = String
-  Default = 'trasparent_new_app'
+  Default = 'fullcure_transparent'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_4
+  Type = String
+  Default = '<epoxy_ptc>'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_5
+  Type = String
+  Default = '<trasparent_new_app>'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_6
+  Type = String
+  Default = '<ptc-std-gold>'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_7
+  Type = String
+  Default = 'ral 5010'
   Access = Full
 }
 
