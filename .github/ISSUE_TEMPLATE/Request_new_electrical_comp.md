@@ -1,7 +1,7 @@
 ---
 name: New ECAD labraries request
 about: Request for new ECAD commercial component
-title: "[manufacturer - part number] - [short description] [ IIT-CODE]"
+title: " [ECAD]-[ALIAS]-[IIT-CODE]-[short description]"
 labels: Libraries-Request
 assignees: ''
 
@@ -10,7 +10,8 @@ assignees: ''
 | |  |
 |:---|:---|
 | Datasheet component  | [link or attachment ] |
-| Alias Creo | [maker + code] |
+|maker info | [Maker brand + serial number] |
+| Alias Creo | [Alias or filename MCAD] |
 | MCAD Contact | [name Surname] [nick git] |
 | ECAD Contact | [name Surname] [nick git] |
 
