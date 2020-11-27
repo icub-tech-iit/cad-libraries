@@ -17,9 +17,9 @@ assignees: ''
 
 
 
-Description and motivation of the changing request: <br>
+## Description and motivation of the changing request: <br>
 [ details and reasons of modification ]
 
-To be filled in by mainteiners or department manager
+## To be filled in by mainteiners or department manager
 * [ ] modification approved
 * [ ] modification checked and ready for pushing to repo
