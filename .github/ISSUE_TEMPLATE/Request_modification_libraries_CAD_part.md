@@ -14,11 +14,15 @@ assignees: ''
 | IIT-Code      | [if present]            |
 | Applicant     | name surname, @username |
 | supervisor    | name surname, @username |
+| other people involved |       ...       |
 
 
 
 ## Description and motivation of the changing request: <br>
 [ details and reasons of modification ]
+
+## details for the modification
+[ utility to help the modifications ]
 
 ## To be filled in by mainteiners or department manager
 * [ ] modification approved
