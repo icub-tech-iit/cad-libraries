@@ -10,6 +10,7 @@
 !   03    2019/11/25   savoldi   migration to mechatronics of all ELTR folder
 !   04    2020/09/28   savoldi   added eletronics-PCA
 !   05    2020/10/23   savoldi   modification paths for migration new repository
+!   06    2021/04/27   savoldi   added heatsink
 
 !
 !
@@ -55,6 +56,7 @@ search_path ".\..\cad-mechanics\projects\common\ic_001_ft45"
 search_path ".\..\cad-mechanics\projects\common\ic_005_ft58"
 search_path ".\..\cad-mechanics\projects\common\ic_007_ft45_M3"
 search_path ".\..\cad-mechanics\projects\common\ic_008_ft45_M4"
+search_path ".\..\cad-mechanics\projects\common\IC_027_heatsinks"
 !
 search_path ".\..\cad-mechanics\projects\gadgets"
 search_path ".\..\cad-mechanics\projects\gadgets\rc_090_stand"
