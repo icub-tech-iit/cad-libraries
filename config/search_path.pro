@@ -56,6 +56,7 @@ search_path ".\..\cad-mechanics\projects\common\ic_001_ft45"
 search_path ".\..\cad-mechanics\projects\common\ic_005_ft58"
 search_path ".\..\cad-mechanics\projects\common\ic_007_ft45_M3"
 search_path ".\..\cad-mechanics\projects\common\ic_008_ft45_M4"
+search_path ".\..\cad-mechanics\projects\common\ic_014_ergoCub_head"
 search_path ".\..\cad-mechanics\projects\common\IC_027_heatsinks"
 !
 search_path ".\..\cad-mechanics\projects\gadgets"
