@@ -4,6 +4,30 @@ Name = PHOSPHOR_BRONZE
 
 PARAMETERS =
 {
+  Name = PTC_MATERIAL_TYPE
+  Type = Integer
+  Default = 9
+  Access = Locked
+},
+{
+  Name = PTC_FAILURE_CRITERION_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_FATIGUE_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_MATERIAL_SUB_TYPE
+  Type = String
+  Default = 'LINEAR'
+  Access = Locked
+},
+{
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
   Default = ''
@@ -28,28 +52,28 @@ PARAMETERS =
   Access = Full
 },
 {
-  Name = PTC_MATERIAL_TYPE
-  Type = Integer
-  Default = 9
-  Access = Locked
+  Name = PTC_MASS_DENSITY
+  Type = Real
+  Default = 8.860000e+00 g/cm^3
+  Access = Full
 },
 {
-  Name = PTC_FAILURE_CRITERION_TYPE
-  Type = String
-  Default = 'NONE'
-  Access = Locked
+  Name = PTC_YOUNG_MODULUS
+  Type = Real
+  Default = 1.100000e+02 kPa
+  Access = Full
 },
 {
-  Name = PTC_FATIGUE_TYPE
-  Type = String
-  Default = 'NONE'
-  Access = Locked
+  Name = PTC_POISSON_RATIO
+  Type = Real
+  Default = 3.410000e-01
+  Access = Full
 },
 {
-  Name = PTC_MATERIAL_SUB_TYPE
-  Type = String
-  Default = 'LINEAR'
-  Access = Locked
+  Name = PTC_THERMAL_CONDUCTIVITY
+  Type = Real
+  Default = 6.200000e+01 W/(m K)
+  Access = Full
 }
 
 }
