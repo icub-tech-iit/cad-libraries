@@ -24,6 +24,7 @@ assignees: ''
 ## details for the modification
 [ utility to help the modifications ]
 
-## To be filled in by mainteiners or department manager
-* [ ] modification approved
-* [ ] modification checked and ready for pushing to repo
+------------
+
+## To be filled in by the repository maintainer
+* [ ] modification approved and ready for pushing to repo
