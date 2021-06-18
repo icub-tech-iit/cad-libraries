@@ -7,38 +7,32 @@ assignees: ''
 
 ---
 ### request: 
-| description| box to edit| notes|
+| Description | Field | Notes |
 |:---|:---|:---|
-| Datasheet component  | [link or attachment ] * | |
-|maker info | [Maker brand + serial number] * | |
-| Alias Creo | [Alias or filename MCAD] **| |
+| Datasheet | [link or attachment ] * | |
+| Manufacturer info | [Manufacturer name + serial number] * | |
+| Alias Creo | [Alias or filename MCAD] \**| |
 | MCAD Contact | [name Surname] [nick git] |  |
 | ECAD Contact | [name Surname] [nick git] | |
 
-legend:
- "*" = To compile only if this information are missing in the database (Wingst)
-  "**" = To compile only it is a preliminary name
+Legend:  
+ - "\*" = To compile only if this information are missing in the database (Wingst)  
+ - "\**" = To compile only if it is a preliminary name
 
-### Image with origin e PIN 1 position by PADS 
-(this info is mandatory):
-...
+### Image with origin e PIN 1 position by PADS (mandatory)
 
-###  Attachments 
-(if present):
-...
+###  Attachments (optional)
 
-### Plug connector information 
-( in case of connector "board to wire" is mandatory)
-...
 
-### Notes ( if needed):
-...
+### Plug connector information (mandatory for connectors "board to wire")
 
-### Madatory information/action:
-(without these informations is not possible proceed with the request issue)
+
+### Notes (optional)
+
+
+### Checklist:
 - [ ] Added IIT-CODE
 - [ ] Added assignees ( min. 1 mechanical + min. 1 Elettrical contact)
-- [ ] Added label "Libraries-Request" (could be automatic )
-- [ ] Link/datasheet/drawing or others information ( or information into Wingst database compiled)
-- [ ] The detail about the PIN 1 and the orientation of the origin of the component (img/sketch/printscreen)
-- [ ] Detail about the PLUG connector (added datasheet, or Wingst code)
+- [ ] Added Link/datasheet/drawing or others information (or information into Wingst database compiled)
+- [ ] Added details about the PIN 1 and the orientation of the origin of the component (img/sketch/printscreen)
+- [ ] Added details about the PLUG connector (added datasheet, or Wingst code)
