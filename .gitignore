@@ -23,6 +23,8 @@
 !*.json
 !*.yml
 !*.pptx
+!*.xls
+!*.xlsx
 !*/
 # Accepted modelcheck files extension
 !*.mcc
