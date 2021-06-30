@@ -31,8 +31,9 @@ Legend:
 
 
 ### Checklist:
-- [ ] Added IIT-CODE
-- [ ] Added assignees ( min. 1 mechanical + min. 1 Elettrical contact)
-- [ ] Added Link/datasheet/drawing or others information (or information into Wingst database compiled)
-- [ ] Added details about the PIN 1 and the orientation of the origin of the component (img/sketch/printscreen)
-- [ ] Added details about the PLUG connector (added datasheet, or Wingst code)
+- [ ] Added IIT-CODE.
+- [ ] Added assignees ( min. 1 mechanical + min. 1 Elettrical contact).
+- [ ] Added Link/datasheet/drawing or others information (or information into Wingst database compiled).
+- [ ] Added details about the PIN 1 and the orientation of the origin of the component (img/sketch/printscreen).
+- [ ] Added details about the PLUG connector (added datasheet, or Wingst code).
+- [ ] Converted the files with the [EDU-COM license](https://www.ptc.com/en/support/article/CS33072).
