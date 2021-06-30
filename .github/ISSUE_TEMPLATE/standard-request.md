@@ -9,4 +9,4 @@ assignees: ''
 
 ## Description of the task
 
-Remember to fix the assignee and labels, and if existing the epic
+Remember to add the assignee and labels and, if exists, the Epic.
