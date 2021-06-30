@@ -24,6 +24,9 @@ assignees: ''
 ## details for the modification
 [ utility to help the modifications ]
 
+## Checklist:
+- [ ] Converted the files with the [EDU-COM license](https://www.ptc.com/en/support/article/CS33072).
+
 ------------
 
 ## To be filled in by the repository maintainer
