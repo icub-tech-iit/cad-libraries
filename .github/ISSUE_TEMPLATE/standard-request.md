@@ -7,6 +7,10 @@ assignees: ''
 
 ---
 
-## Description of the task
+| Description          | Field                                  |
+|:---------------------|:---------------------------------------|
+| Applicant            | Name Surname, @username                |
+| Supervisor           | Name Surname, @username                |
+| Maintainer           | Marcello Savoldi, @marcellosavoldi     |
 
-Remember to add the assignee and labels and, if exists, the Epic.
+## Description of the task
