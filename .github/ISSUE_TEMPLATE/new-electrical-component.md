@@ -2,7 +2,7 @@
 name: New commercial ECAD component
 about: Request for new ECAD commercial components
 title: "ECAD - [ALIAS] - [IIT-CODE] - [short description]"
-labels: Libraries-Request
+labels: NEW ECAD libraries request
 assignees: ''
 
 ---
