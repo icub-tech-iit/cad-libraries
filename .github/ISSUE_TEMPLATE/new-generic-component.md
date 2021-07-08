@@ -2,7 +2,7 @@
 name: New generic component
 about: Request for new library components
 title: "[manufacturer] - [part number] - [short description]"
-labels: Libraries-Request
+labels: libraries-request - GENERIC
 assignees: ''
 
 ---
