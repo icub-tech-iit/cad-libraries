@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--UGC_VERSION = 1024-->
+<XML_DOCUMENT xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+    <PTC_HEADER>
+        <VENDOR>Parametric Technology Corporation</VENDOR>
+        <PRODUCT>Creo Parametric 3802020053</PRODUCT>
+        <XML_VERSION>1.0</XML_VERSION>
+        <HOST_NAME>IITICUBLAP169</HOST_NAME>
+        <USER>msalvi</USER>
+        <MACHINE_TYPE> Intel64 Family 6 Model 158 Stepping 10  GenuineIntel  2592 MHz</MACHINE_TYPE>
+    </PTC_HEADER>
+    <tmp_serialization_obj_ pointer="TRUE">
+        <profile_options_xar_ SOAP-ENC:Array="[30]">
+            <profile_options_xar__ENTRY id_="Annotations" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Rich Content" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Datums" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Quilts" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Facets" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Hidden entities" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Cable surfaces" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Parameters" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Designated Only" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Cross sections" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Construction bodies" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Construction bodies as quilts" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Export part as" pointer="TRUE">
+                <value___PO__i__PC__>0</value___PO__i__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Export assembly as" pointer="TRUE">
+                <value___PO__i__PC__>0</value___PO__i__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Application protocol" pointer="TRUE">
+                <value___PO__i__PC__>0</value___PO__i__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Appearance, Layers and Groups" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Material Definition" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="As Separate STEP PRODUCT entity" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Assembly Validation Information" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Entity Names Derived from IDs" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Over-ride with user defined names" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Extended datums" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Export solids and quilts as" pointer="TRUE">
+                <value___PO__i__PC__>0</value___PO__i__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Match geometric to topological normals" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Maximum surface deviation" pointer="TRUE">
+                <value___PO__d__PC__>-1.</value___PO__d__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Raise free-form surface degree" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Maximum free-form surface degree" pointer="TRUE">
+                <value___PO__i__PC__>16</value___PO__i__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Extend surface boundaries" pointer="TRUE">
+                <value___PO__b__PC__>1</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Components as mapped items" pointer="TRUE">
+                <value___PO__b__PC__>0</value___PO__b__PC__>
+            </profile_options_xar__ENTRY>
+            <profile_options_xar__ENTRY id_="Export annotation graphics as" pointer="TRUE">
+                <value___PO__i__PC__>0</value___PO__i__PC__>
+            </profile_options_xar__ENTRY>
+        </profile_options_xar_>
+    </tmp_serialization_obj_>
+</XML_DOCUMENT>
