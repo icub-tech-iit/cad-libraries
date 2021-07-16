@@ -18,7 +18,7 @@
                 <value___PO__b__PC__>0</value___PO__b__PC__>
             </profile_options_xar__ENTRY>
             <profile_options_xar__ENTRY id_="Datums" pointer="TRUE">
-                <value___PO__b__PC__>0</value___PO__b__PC__>
+                <value___PO__b__PC__>1</value___PO__b__PC__>
             </profile_options_xar__ENTRY>
             <profile_options_xar__ENTRY id_="Quilts" pointer="TRUE">
                 <value___PO__b__PC__>0</value___PO__b__PC__>
@@ -33,7 +33,7 @@
                 <value___PO__b__PC__>0</value___PO__b__PC__>
             </profile_options_xar__ENTRY>
             <profile_options_xar__ENTRY id_="Parameters" pointer="TRUE">
-                <value___PO__b__PC__>0</value___PO__b__PC__>
+                <value___PO__b__PC__>1</value___PO__b__PC__>
             </profile_options_xar__ENTRY>
             <profile_options_xar__ENTRY id_="Designated Only" pointer="TRUE">
                 <value___PO__b__PC__>0</value___PO__b__PC__>
@@ -54,10 +54,10 @@
                 <value___PO__i__PC__>0</value___PO__i__PC__>
             </profile_options_xar__ENTRY>
             <profile_options_xar__ENTRY id_="Application protocol" pointer="TRUE">
-                <value___PO__i__PC__>0</value___PO__i__PC__>
+                <value___PO__i__PC__>1</value___PO__i__PC__>
             </profile_options_xar__ENTRY>
             <profile_options_xar__ENTRY id_="Appearance, Layers and Groups" pointer="TRUE">
-                <value___PO__b__PC__>0</value___PO__b__PC__>
+                <value___PO__b__PC__>1</value___PO__b__PC__>
             </profile_options_xar__ENTRY>
             <profile_options_xar__ENTRY id_="Material Definition" pointer="TRUE">
                 <value___PO__b__PC__>0</value___PO__b__PC__>
