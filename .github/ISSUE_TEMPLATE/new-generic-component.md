@@ -28,8 +28,7 @@ Complete the checklist in order to proceed with the request.
 
 - [ ] Created the Alias following [the standard convention](https://github.com/icub-tech-iit/cad-libraries/wiki/Mechanical-design-guidelines#commercial-components-coding-standard).
 - [ ] Added, if necessary, the source files (STEP, IGS, etc), the links/datasheets/drawings or other information used to create the library part.
-- [ ] File imported using the Creo [start part](https://github.com/icub-tech-iit/cad-libraries/wiki/Mechanical-design-guidelines#cad-documentation-standards).
+- [ ] File imported using the Creo [start part commercial](https://github.com/icub-tech-iit/cad-libraries/wiki/Mechanical-design-guidelines#standard-part-for-commercial-components).
 - [ ] Checked [mass properties](https://github.com/icub-tech-iit/cad-libraries/wiki/Mechanical-design-guidelines#mass-properties-of-commercial-parts).
-- [ ] Edited the [parameters](https://github.com/icub-tech-iit/cad-libraries/wiki/Mechanical-design-guidelines#parameters-for-commercial-components).
 - [ ] Checked if one [special case](https://github.com/icub-tech-iit/cad-libraries/wiki/Mechanical-design-guidelines#special-cases-and-examples) applies to this component.
 - [ ] Converted the files with the [EDU-COM license](https://www.ptc.com/en/support/article/CS33072).
