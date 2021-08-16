@@ -23,4 +23,4 @@ assignees: ''
 
 
 ## Checklist:
-- [ ] Converted the files with the [EDU-COM license](https://www.ptc.com/en/support/article/CS33072).
+- [ ] Converted the files with the [EDU-COM license](https://github.com/icub-tech-iit/cad-libraries/wiki/PTC-Creo-Guidelines#save-file-with-commercial-license).
