@@ -35,4 +35,4 @@ Legend:
 - [ ] Added Link/datasheet/drawing or others information (or information into Wingst database compiled).
 - [ ] Added details about the PIN 1 and the orientation of the origin of the component (img/sketch/print-screen).
 - [ ] Added details about the PLUG connector (added datasheet, or Wingst code).
-- [ ] Converted the files with the [EDU-COM license](https://www.ptc.com/en/support/article/CS33072).
+- [ ] Converted the files with the [EDU-COM license](https://github.com/icub-tech-iit/cad-libraries/wiki/PTC-Creo-Guidelines#save-file-with-commercial-license).

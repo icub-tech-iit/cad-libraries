@@ -31,4 +31,4 @@ Complete the checklist in order to proceed with the request.
 - [ ] File imported using the Creo [start part commercial](https://github.com/icub-tech-iit/cad-libraries/wiki/Mechanical-design-guidelines#standard-part-for-commercial-components).
 - [ ] Checked [mass properties](https://github.com/icub-tech-iit/cad-libraries/wiki/Mechanical-design-guidelines#mass-properties-of-commercial-parts).
 - [ ] Checked if one [special case](https://github.com/icub-tech-iit/cad-libraries/wiki/Mechanical-design-guidelines#special-cases-and-examples) applies to this component.
-- [ ] Converted the files with the [EDU-COM license](https://www.ptc.com/en/support/article/CS33072).
+- [ ] Converted the files with the [EDU-COM license](https://github.com/icub-tech-iit/cad-libraries/wiki/PTC-Creo-Guidelines#save-file-with-commercial-license).
