@@ -15,7 +15,7 @@ assignees: ''
 | Applicant     | Name Surname, @username            |
 | Supervisor    | Name Surname, @username            |
 | Maintainer    | Marcello Savoldi, @marcellosavoldi |
-| Coworkers     | @username                          |
+| Coworkers     | @icub-tech-iit/silo-mech           |
 
 
 ## Description and motivation of the changing request: <br>
