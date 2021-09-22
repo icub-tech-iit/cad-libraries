@@ -8,6 +8,7 @@
 !*.dmt
 !*.dtl
 !*.fmt
+!*.hol
 !*.map
 !*.md
 !*.mtl

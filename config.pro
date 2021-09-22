@@ -13,7 +13,8 @@
 !   04    2019/09/24   Savoldi   modified default template for ECAD feature (asm and prt)
 !   05    2020/02/14   Savoldi   Added modelcheck path and matlab string
 !   06    2021/04/20   Savoldi   Added white background for render scene as default
-
+!   07    2021/09/21   Protopapa Added "hole_parameter_file_path" as ".\config"
+!
 !
 !
 ! Assembly ________________________________________________
@@ -111,7 +112,7 @@ template_solidpart .\config\standard_files\start_part.prt.1
 !
 ! Model Display ___________________________________________
 !
-display_axes NO
+display_axes YES
 display_coord_sys NO
 display_points no
 display_planes no
@@ -338,3 +339,5 @@ modelcheck_dir .\config\modelcheck
 !toolkit_registry_file .\config\matlab\creolink.dat
 
 default_scene_filename .\config\render_scene\IIT_default_scene.scn
+hole_parameter_file_path .\config
+hole_file_resolution replace_with_external
