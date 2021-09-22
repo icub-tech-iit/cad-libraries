@@ -112,7 +112,7 @@ template_solidpart .\config\standard_files\start_part.prt.1
 !
 ! Model Display ___________________________________________
 !
-display_axes YES
+display_axes NO
 display_coord_sys NO
 display_points no
 display_planes no
