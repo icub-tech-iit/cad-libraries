@@ -341,3 +341,4 @@ modelcheck_dir .\config\modelcheck
 default_scene_filename .\config\render_scene\IIT_default_scene.scn
 hole_parameter_file_path .\config
 hole_file_resolution replace_with_external
+pro_surface_finish_dir .\config\symbols\surf_finish
