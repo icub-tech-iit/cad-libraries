@@ -14,6 +14,7 @@
 !   05    2020/02/14   Savoldi   Added modelcheck path and matlab string
 !   06    2021/04/20   Savoldi   Added white background for render scene as default
 !   07    2021/09/21   Protopapa Added "hole_parameter_file_path" as ".\config"
+!   08    2021/10/28   Shah      Added "start_model_dir" as ".config\standard_files"
 !
 !
 !
@@ -342,3 +343,5 @@ default_scene_filename .\config\render_scene\IIT_default_scene.scn
 hole_parameter_file_path .\config
 hole_file_resolution replace_with_external
 pro_surface_finish_dir .\config\symbols\surf_finish
+
+start_model_dir .\config\standard_files
