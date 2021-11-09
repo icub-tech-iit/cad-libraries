@@ -345,3 +345,4 @@ hole_file_resolution replace_with_external
 pro_surface_finish_dir .\config\symbols\surf_finish
 
 start_model_dir .\config\standard_files
+display shadewithedges
