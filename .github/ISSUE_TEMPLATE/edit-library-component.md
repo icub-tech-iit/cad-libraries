@@ -24,4 +24,4 @@ assignees: ''
 
 ## Checklist:
 - [ ] Converted the files with the [EDU-COM license](https://github.com/icub-tech-iit/cad-libraries/wiki/PTC-Creo-Guidelines#save-file-with-commercial-license).
-- [ ] Check that WINGST codes are aligned
+- [ ] Checked that the associated WINGST code is up-to-date
