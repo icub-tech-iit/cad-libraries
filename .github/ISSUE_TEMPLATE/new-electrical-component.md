@@ -30,7 +30,7 @@ Legend:
 
 
 ### Checklist:
-- [ ] Added IIT-CODE.
+- [ ] Added IIT-CODE from [WINGST](http://wingst.icub.iit.local/).
 - [ ] Added assignees (min. 1 mechanical + 1 electrical contact).
 - [ ] Added Link/datasheet/drawing or others information (or information into Wingst database compiled).
 - [ ] Added details about the PIN 1 and the orientation of the origin of the component (img/sketch/print-screen).
