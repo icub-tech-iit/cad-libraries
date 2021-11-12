@@ -33,3 +33,4 @@ Complete the checklist in order to proceed with the request.
 - [ ] Checked [mass properties](https://github.com/icub-tech-iit/cad-libraries/wiki/Mechanical-design-guidelines#mass-properties-of-commercial-parts).
 - [ ] Checked if one [special case](https://github.com/icub-tech-iit/cad-libraries/wiki/Mechanical-design-guidelines#special-cases-and-examples) applies to this component.
 - [ ] Converted the files with the [EDU-COM license](https://github.com/icub-tech-iit/cad-libraries/wiki/PTC-Creo-Guidelines#save-file-with-commercial-license).
+- [ ] Created IIT code in [WINGST](http://wingst.icub.iit.local/) with manufacturer and at least one supplier.
