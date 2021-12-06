@@ -2,7 +2,7 @@
 name: Dispose library component
 about: Request to make a library component obsolete
 title: "Dispose [alias]-[short description]"
-labels: Libraries-Request
+labels: libraries-request - GENERIC
 assignees: ''
 
 ---
