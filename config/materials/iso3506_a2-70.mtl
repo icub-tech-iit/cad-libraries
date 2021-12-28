@@ -30,38 +30,7 @@ PARAMETERS =
 {
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
-  Default = 'Sample materials data from ANSYS Granta
-See grantadesign.com/PTC for more'
-  Access = Full
-},
-{
-  Name = GRANTA_DATALINK_VERSION
-  Type = String
-  Default = '5'
-  Access = Full
-},
-{
-  Name = GRANTA_DATABASE_KEY
-  Type = String
-  Default = 'Granta_Typical_Materials'
-  Access = Full
-},
-{
-  Name = GRANTA_IDENTITY_GUID
-  Type = String
-  Default = '46ef4dd7-2d17-4d2c-b5a0-bd890ebb0f27'
-  Access = Full
-},
-{
-  Name = GRANTA_VERSION_GUID
-  Type = String
-  Default = '43ddc23e-6caf-4833-9c7b-b0a33ab3fc1a'
-  Access = Full
-},
-{
-  Name = GRANTA_MODEL_REFERENCE
-  Type = String
-  Default = '00000000-0000-0000-0000-000000000000'
+  Default = 'DIN ES ISO 3506-1: 1997 for bolts, screws and nuts made of austenitic S.Steel'
   Access = Full
 },
 {
@@ -103,7 +72,7 @@ See grantadesign.com/PTC for more'
 {
   Name = PTC_TENSILE_YIELD_STRESS
   Type = Real
-  Default = 7.000000e+02 MPa
+  Default = 4.500000e+02 MPa
   Access = Full
 },
 {
@@ -127,13 +96,19 @@ See grantadesign.com/PTC for more'
 {
   Name = PTC_DEFAULT_APPEARANCE
   Type = String
-  Default = 'steel-stainless'
+  Default = '<steel-stainless>'
+  Access = Full
+},
+{
+  Name = PTC_TENSILE_ULTIMATE_STRESS
+  Type = Real
+  Default = 7.000000e+02 kPa
   Access = Full
 },
 {
   Name = PTC_APPEARANCE_1
   Type = String
-  Default = 'steel-stainless'
+  Default = '<steel-stainless>'
   Access = Full
 }
 
