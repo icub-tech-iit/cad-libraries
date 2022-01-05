@@ -30,7 +30,7 @@ PARAMETERS =
 {
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
-  Default = 'DIN ES ISO 3506-1: 1997 for bolts, screws and nuts made of austenitic S.Steel'
+  Default = 'ISO 3506-1: 1997 for bolts, screws and nuts made of austenitic S.Steel'
   Access = Full
 },
 {
@@ -103,12 +103,6 @@ PARAMETERS =
   Name = PTC_TENSILE_ULTIMATE_STRESS
   Type = Real
   Default = 7.000000e+02 kPa
-  Access = Full
-},
-{
-  Name = PTC_APPEARANCE_1
-  Type = String
-  Default = '<steel-stainless>'
   Access = Full
 }
 
