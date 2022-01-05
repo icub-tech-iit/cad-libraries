@@ -30,7 +30,7 @@ PARAMETERS =
 {
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
-  Default = 'ISO 3506-1: 1997 for bolts, screws and nuts made of austenitic S.Steel'
+  Default = 'ISO 3506-1: 2020 for bolts, screws and nuts made of austenitic S.Steel'
   Access = Full
 },
 {
