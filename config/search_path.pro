@@ -11,6 +11,7 @@
 !   04    2020/09/28   savoldi   added eletronics-PCA
 !   05    2020/10/23   savoldi   modification paths for migration new repository
 !   06    2021/04/27   savoldi   added heatsink
+!   07    2022/01/27   savoldi   added deprecated drawing format
 
 !
 !
@@ -28,7 +29,8 @@ search_path ".\libraries\motors_and_gearboxes"
 search_path ".\libraries\electronics\plug_components"
 search_path ".\libraries\electronics\pannel_components"
 search_path ".\libraries\fasteners"
-
+!
+search_path ".\config\proe_drawing_formats\deprecate_df"
 !
 search_path ".\..\cad-mechanics\projects"
 search_path ".\..\cad-mechanics\projects\cer"
