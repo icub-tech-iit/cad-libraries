@@ -12,6 +12,7 @@
 !   05    2020/10/23   savoldi   modification paths for migration new repository
 !   06    2021/04/27   savoldi   added heatsink
 !   07    2022/01/27   savoldi   added deprecated drawing format
+!   08    2022/02/09   protopapa added tool folder
 
 !
 !
@@ -91,6 +92,8 @@ search_path ".\..\cad-mechanics\projects\icub\koroibot"
 search_path ".\..\cad-mechanics\projects\simulation_model"
 search_path ".\..\cad-mechanics\projects\simulation_model\head"
 search_path ".\..\cad-mechanics\projects\simulation_model\icub3"
+!
+search_path ".\..\cad-mechanics\projects\tools"
 !
 search_path ".\..\mechatronics\"
 search_path ".\..\mechatronics\project\pcb_an_layout"
