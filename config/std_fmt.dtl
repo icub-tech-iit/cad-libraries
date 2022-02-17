@@ -21,7 +21,7 @@ show_total_unfold_seam YES
 tan_edge_display_for_new_views no_disp_tan
 view_note STD_ISO
 view_scale_denominator 1
-view_scale_format RATIO_COLON
+view_scale_format ratio_colon_normalized
 crossec_arrow_length 4.000000
 crossec_arrow_style HEAD_ONLINE
 crossec_arrow_width 1.300000
