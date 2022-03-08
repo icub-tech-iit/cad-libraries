@@ -28,7 +28,7 @@ search_path ".\libraries\electronics\custom_boards\eletronics-boards"
 search_path ".\libraries\electronics\custom_boards\eletronics-PCA"
 search_path ".\libraries\motors_and_gearboxes"
 search_path ".\libraries\electronics\plug_components"
-search_path ".\libraries\electronics\pannel_components"
+search_path ".\libraries\electronics\panel_components"
 search_path ".\libraries\fasteners"
 !
 search_path ".\config\proe_drawing_formats\deprecate_df"
