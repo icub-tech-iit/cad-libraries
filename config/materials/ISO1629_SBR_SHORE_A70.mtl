@@ -6,7 +6,7 @@ PARAMETERS =
 {
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
-  Default = 'SBR rubbet. Shore 70.'
+  Default = 'SBR rubber. Shore 70.'
   Access = Full
 },
 {
