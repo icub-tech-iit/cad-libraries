@@ -48,7 +48,7 @@ PARAMETERS =
 {
   Name = PTC_MATERIAL_SUB_TYPE
   Type = String
-  Default = 'HYPERELASTIC'
+  Default = 'LINEAR'
   Access = Locked
 },
 {
