@@ -106,6 +106,7 @@ search_path ".\..\mechatronics\project\pcb_an_layout\PSC"
 search_path ".\..\mechatronics\project\pcb_an_layout\RFE"
 search_path ".\..\mechatronics\project\pcb_an_layout\RSB48"
 search_path ".\..\mechatronics\project\pcb_an_layout\UZCB"
+search_path ".\..\mechatronics\project\pcb_an_layout\JOGGER"
 !search_path ".\..\mechatronics\project\pcb_an_layout\..
 !search_path ".\..\mechatronics\project\sandbox\..
 !
