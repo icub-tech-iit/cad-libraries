@@ -97,6 +97,7 @@ search_path ".\..\cad-mechanics\projects\tools"
 !
 search_path ".\..\mechatronics\"
 search_path ".\..\mechatronics\project\pcb_an_layout"
+search_path ".\..\mechatronics\project\pcb_an_layout\AEA3_SSI"
 search_path ".\..\mechatronics\project\pcb_an_layout\AMC_and_AMC-BLDC"
 search_path ".\..\mechatronics\project\pcb_an_layout\FAP"
 search_path ".\..\mechatronics\project\pcb_an_layout\FFAP"
