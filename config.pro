@@ -15,7 +15,7 @@
 !   06    2021/04/20   Savoldi   Added white background for render scene as default
 !   07    2021/09/21   Protopapa Added "hole_parameter_file_path" as ".\config"
 !   08    2021/10/28   Shah      Added "start_model_dir" as ".config\standard_files"
-!   09    2022/04/05   Savoldi   Added envelope rep PCA rules
+
 !
 !
 !
@@ -348,4 +348,4 @@ pro_surface_finish_dir .\config\symbols\surf_finish
 start_model_dir .\config\standard_files
 display shadewithedges
 pro_table_dir .\config\tables
-open_simplified_rep_by_default ENV_BOARD
+open_simplified_rep_by_default Last Stored
