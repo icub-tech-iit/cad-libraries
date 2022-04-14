@@ -1,0 +1,62 @@
+﻿V7.0
+#
+#
+# PGL Version 7.0
+#
+#
+# material name
+material_name "ref_color1682"
+# material label
+material_label "SLM-al_anod-black"
+# material description
+material_description "appearance representing brushed aluminium material"
+# material keywords
+material_keywords "ptc aluminium metal brushed"
+shader_type metal_shader "generic_metal"
+color_param 0.105800 0.112024 0.121359 "diffuse"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+# ambient color
+ambient_color 0.105800 0.112024 0.121359 1.000000
+# diffuse color
+diffuse_color 0.105800 0.112024 0.121359 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.550000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 1.000000
+# bump_type
+bump_type 4
+# amplitude
+amplitude -6.000000
+# scale
+scale 0.010000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# bump texture map
+bump_map Brushed-bump.jpg
+# bump enabled
+bump_enabled 1
