@@ -13,25 +13,29 @@
 !   06    2021/04/27   savoldi   added heatsink
 !   07    2022/01/27   savoldi   added deprecated drawing format
 !   08    2022/02/09   protopapa added tool folder
+!   09    2022/04/28   Savoldi   added electronic board to cad-mechanics + added titles
 
 !
 !
-!
+! ----------------------Libraries parts-----------------------------------------
 !
 search_path ".\libraries\commercials"
 search_path ".\libraries\custom"
 !search_path ".\libraries\electronics\"
 search_path ".\libraries\electronics\board_components"
 search_path ".\libraries\electronics\commercial_boards"
-search_path ".\libraries\electronics\custom_boards"
-search_path ".\libraries\electronics\custom_boards\eletronics-boards"
-search_path ".\libraries\electronics\custom_boards\eletronics-PCA"
 search_path ".\libraries\motors_and_gearboxes"
 search_path ".\libraries\electronics\plug_components"
 search_path ".\libraries\electronics\panel_components"
 search_path ".\libraries\fasteners"
 !
+!
+! ----------------------drawing format-----------------------------------------
+!
 search_path ".\config\proe_drawing_formats\deprecate_df"
+!
+!
+! ----------------------all mechanical projects-----------------------------------------
 !
 search_path ".\..\cad-mechanics\projects"
 search_path ".\..\cad-mechanics\projects\cer"
@@ -53,25 +57,6 @@ search_path ".\..\cad-mechanics\projects\cer\cer_028_chest_mk2"
 search_path ".\..\cad-mechanics\projects\cer\cer_029_covers_mk2"
 search_path ".\..\cad-mechanics\projects\cer\cer_030_head_mk3"
 search_path ".\..\cad-mechanics\projects\cer\cer_031_head_mk4_obsolete"
-!
-search_path ".\..\cad-mechanics\projects\common"
-search_path ".\..\cad-mechanics\projects\common\ic_001_ft45"
-search_path ".\..\cad-mechanics\projects\common\ic_005_ft58"
-search_path ".\..\cad-mechanics\projects\common\ic_007_ft45_M3"
-search_path ".\..\cad-mechanics\projects\common\ic_008_ft45_M4"
-search_path ".\..\cad-mechanics\projects\common\ic_014_ergoCub_head"
-search_path ".\..\cad-mechanics\projects\common\IC_027_heatsinks"
-!
-search_path ".\..\cad-mechanics\projects\gadgets"
-search_path ".\..\cad-mechanics\projects\gadgets\rc_090_stand"
-search_path ".\..\cad-mechanics\projects\gadgets\rc_090_stand\stand-rounded"
-search_path ".\..\cad-mechanics\projects\gadgets\rc_090_stand\stand_icub1_2"
-search_path ".\..\cad-mechanics\projects\gadgets\rc_090_stand\stand_for_upperbody"
-search_path ".\..\cad-mechanics\projects\gadgets\rc_090_stand\stand_icub3"
-search_path ".\..\cad-mechanics\projects\gadgets\ic_002_FTSensor58_mounting_tool"
-search_path ".\..\cad-mechanics\projects\gadgets\ig_001_FTSensor45_mounting_tool"
-search_path ".\..\cad-mechanics\projects\gadgets\ig_012_stand_safety_protection"
-search_path ".\..\cad-mechanics\projects\gadgets\ig_017_r1_arm_test_setup"
 !
 search_path ".\..\cad-mechanics\projects\icub"
 search_path ".\..\cad-mechanics\projects\icub\common"
@@ -95,6 +80,15 @@ search_path ".\..\cad-mechanics\projects\simulation_model\icub3"
 !
 search_path ".\..\cad-mechanics\projects\tools"
 !
+! ----------------------Electronic boards-----------------------------------------
+!
+search_path ".\..\cad-mechanics\projects\electronics\elect_old-school"
+search_path ".\..\cad-mechanics\projects\cer\electronics\electronic_boards"
+!
+search_path ".\libraries\electronics\custom_boards"
+search_path ".\libraries\electronics\custom_boards\eletronics-boards"
+search_path ".\libraries\electronics\custom_boards\eletronics-PCA"
+!
 search_path ".\..\mechatronics\"
 search_path ".\..\mechatronics\project\pcb_an_layout"
 search_path ".\..\mechatronics\project\pcb_an_layout\AEA3_SSI"
@@ -108,6 +102,32 @@ search_path ".\..\mechatronics\project\pcb_an_layout\RFE"
 search_path ".\..\mechatronics\project\pcb_an_layout\RSB48"
 search_path ".\..\mechatronics\project\pcb_an_layout\UZCB"
 search_path ".\..\mechatronics\project\pcb_an_layout\JOGGER"
-!search_path ".\..\mechatronics\project\pcb_an_layout\..
-!search_path ".\..\mechatronics\project\sandbox\..
+search_path ".\..\mechatronics\project\pcb_an_layout\MRIE"
 !
+!
+! ---------------------- Common parts-----------------------------------------
+!
+search_path ".\..\cad-mechanics\projects\common"
+search_path ".\..\cad-mechanics\projects\common\ic_001_ft45"
+search_path ".\..\cad-mechanics\projects\common\ic_005_ft58"
+search_path ".\..\cad-mechanics\projects\common\ic_007_ft45_M3"
+search_path ".\..\cad-mechanics\projects\common\ic_008_ft45_M4"
+search_path ".\..\cad-mechanics\projects\common\ic_014_ergoCub_head"
+search_path ".\..\cad-mechanics\projects\common\IC_027_heatsinks"
+!
+!
+! ------------------ all gadgets for the robots --------------------------------
+!
+search_path ".\..\cad-mechanics\projects\gadgets"
+search_path ".\..\cad-mechanics\projects\gadgets\rc_090_stand"
+search_path ".\..\cad-mechanics\projects\gadgets\rc_090_stand\stand-rounded"
+search_path ".\..\cad-mechanics\projects\gadgets\rc_090_stand\stand_icub1_2"
+search_path ".\..\cad-mechanics\projects\gadgets\rc_090_stand\stand_for_upperbody"
+search_path ".\..\cad-mechanics\projects\gadgets\rc_090_stand\stand_icub3"
+search_path ".\..\cad-mechanics\projects\gadgets\ic_002_FTSensor58_mounting_tool"
+search_path ".\..\cad-mechanics\projects\gadgets\ig_001_FTSensor45_mounting_tool"
+search_path ".\..\cad-mechanics\projects\gadgets\ig_012_stand_safety_protection"
+search_path ".\..\cad-mechanics\projects\gadgets\ig_017_r1_arm_test_setup"
+!
+
+
