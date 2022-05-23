@@ -1,0 +1,4 @@
+﻿ERROR - C:\Users\lprotopapa\git_repos\cad-libraries\config\std_fmt.dtl, line 178:
+Invalid value 'NONE' for keyword 'tan_edge_display_for_new_views'.
+ERROR - C:\Users\lprotopapa\git_repos\cad-libraries\config\std_fmt.dtl, line 189:
+Invalid value 'NONE' for keyword 'tan_edge_display_for_new_views'.
