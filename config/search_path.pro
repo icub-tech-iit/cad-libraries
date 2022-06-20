@@ -83,7 +83,7 @@ search_path ".\..\cad-mechanics\projects\tools"
 ! ----------------------Electronic boards-----------------------------------------
 !
 search_path ".\..\cad-mechanics\projects\electronics\elect_old-school"
-search_path ".\..\cad-mechanics\projects\cer\electronics\electronic_boards"
+search_path ".\..\cad-mechanics\projects\electronics\electronic_boards"
 !
 search_path ".\libraries\electronics\custom_boards"
 search_path ".\libraries\electronics\custom_boards\eletronics-boards"
