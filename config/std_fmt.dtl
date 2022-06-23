@@ -175,7 +175,7 @@ weld_spot_side_significant YES
 weld_symbol_standard STD_ANSI
 yes_no_parameter_display TRUE_FALSE
 drawing_text_height 3.000000
-tan_edge_display_for_new_views NONE
+tan_edge_display_for_new_views DEFAULT
 angdim_text_orientation HORIZONTAL
 chamfer_45deg_leader_style STD_ASME_ANSI
 draw_ang_units ANG_DEG
@@ -185,6 +185,4 @@ parallel_dim_placement ABOVE
 text_orientation PARALLEL_DIAM_HORIZ
 aux_font 1 filled
 draw_arrow_style FILLED
-sym_rotate_note_center NO
-tan_edge_display_for_new_views NONE
 sym_rotate_note_center NO
