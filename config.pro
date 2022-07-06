@@ -72,7 +72,7 @@ display_annotations no
 pro_material_dir .\config\materials
 rename_drawings_with_object both
 save_dialog_for_existing_models yes
-save_instance_accelerator none
+save_instance_accelerator ALWAYS
 search_path_file .\config\search_path.pro
 search_path_file .\config\search_path_custom.pro
 template_designasm .\config\standard_files\start_asm.asm.1
