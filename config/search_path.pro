@@ -14,6 +14,7 @@
 !   07    2022/01/27   savoldi   added deprecated drawing format
 !   08    2022/02/09   protopapa added tool folder
 !   09    2022/04/28   Savoldi   added electronic board to cad-mechanics + added titles
+!   09    2022/07/13   Salvi    added ergocub
 
 !
 !
@@ -71,6 +72,8 @@ search_path ".\..\cad-mechanics\projects\icub\common\ic_016_blink_head"
 search_path ".\..\cad-mechanics\projects\icub\icub1_icub2"
 !
 search_path ".\..\cad-mechanics\projects\icub\icub3"
+!
+search_path ".\..\cad-mechanics\projects\ergocub"
 !
 search_path ".\..\cad-mechanics\projects\icub\koroibot"
 !
