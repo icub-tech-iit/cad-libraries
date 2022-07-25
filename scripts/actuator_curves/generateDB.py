@@ -403,7 +403,7 @@ def main():
               contStallTorque=0.6, #(?)
               peakTorque=0.96,
               ratedSpeed=6850,
-              noLoadSpeed=6850, #(?)
+              noLoadSpeed=12000, #mech no load speed
               torqueConst=0.058,
               backEMFConst=7.007, #(?)
               designVoltage=48,
@@ -422,8 +422,8 @@ def main():
               ratedTorque=0.66,
               contStallTorque=1.3, #(?)
               peakTorque=2.13,
-              ratedSpeed=3650,
-              noLoadSpeed=6300, #(?)
+              ratedSpeed=6300,
+              noLoadSpeed=10000, #mech no load speed
               torqueConst=0.109,
               backEMFConst=7.619, #(?)
               designVoltage=48,
