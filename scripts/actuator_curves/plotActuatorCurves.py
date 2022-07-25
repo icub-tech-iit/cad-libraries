@@ -3,6 +3,13 @@
 Created on Mon Jun 23 07:28:03 2014
 
 @author: Alberto Parmiggiani
+
+Version History
+---------------
+XX.XX           YYYYMMDD   Author    Description
+01.00           20140623   alberto   first release (?)
+02.00           20220603     divya   added eCub actuator combinations
+
 """
 
 import shelve
@@ -53,6 +60,24 @@ def main():
 #    pl.plot(dictAct[aStr].xy1[0], dictAct[aStr].xy1[1], 'c', label = aStr)
 #    pl.plot(dictAct[aStr].xy2[0], dictAct[aStr].xy2[1], 'c--')
 #    pl.plot(dictAct[aStr].xy3[0], dictAct[aStr].xy3[1], 'c-.')
+
+#   #eCub 2.0 small joint
+#    aStr = 'eCub2 small joint'
+#    pl.plot(dictAct[aStr].xy1[1], dictAct[aStr].xy1[0], 'y', label = aStr)
+#    pl.plot(dictAct[aStr].xy2[1], dictAct[aStr].xy2[0], 'y--')
+#    pl.plot(dictAct[aStr].xy3[1], dictAct[aStr].xy3[0], 'y-.')
+
+#   #eCub 2.0 medium joint
+#    aStr = 'eCub2 medium joint'
+#    pl.plot(dictAct[aStr].xy1[1], dictAct[aStr].xy1[0], 'y', label = aStr)
+#    pl.plot(dictAct[aStr].xy2[1], dictAct[aStr].xy2[0], 'y--')
+#    pl.plot(dictAct[aStr].xy3[1], dictAct[aStr].xy3[0], 'y-.')
+    
+#   #eCub 2.0 large joint
+#    aStr = 'eCub2 large joint'
+#    pl.plot(dictAct[aStr].xy1[1], dictAct[aStr].xy1[0], 'y', label = aStr)
+#    pl.plot(dictAct[aStr].xy2[1], dictAct[aStr].xy2[0], 'y--')
+#    pl.plot(dictAct[aStr].xy3[1], dictAct[aStr].xy3[0], 'y-.') 
  
     pl.ylabel(r'$\tau$ [Nm]')
     pl.xlabel(r'$\omega$ [rpm]')

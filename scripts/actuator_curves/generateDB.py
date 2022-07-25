@@ -9,6 +9,7 @@ Version History
 XX.XX           YYYYMMDD   Author    Description
 01.00           2014????   alberto   first release
 02.00           20150831   alberto   added Mecapion motor
+03.00           20220603     divya   added eCub joint components & actuators
 
 """
 
@@ -395,6 +396,69 @@ def main():
     dictComp['Kollmorgen RBE01810-A'].busVoltage = 36
     dictComp['Mecapion APM-SA01A'].busVoltage = 24
 
+    # TODO: verify all data from TQ ILM 50x08 & CPL 20-160    
+    dictComp['TQ ILM 50x08 SS'] = \
+        motor(name='TQ ILM 50x08 SS',
+              ratedTorque=0.30,
+              contStallTorque=0.6, #(?)
+              peakTorque=0.96,
+              ratedSpeed=6850,
+              noLoadSpeed=6850, #(?)
+              torqueConst=0.058,
+              backEMFConst=7.007, #(?)
+              designVoltage=48,
+              busVoltage=[], # 32 (?)
+              resistance=0.54,
+              inductance=0.49/1000,
+              NPoles=10,
+              outerDiam=50,
+              airgapDiam=[],
+              innerDiam=30,
+              tolalLength=16.4,
+              stackLength=[]) 
+
+    dictComp['TQ ILM 70x10 DS'] = \
+        motor(name='TQ ILM 70x10 DS',
+              ratedTorque=0.66,
+              contStallTorque=1.3, #(?)
+              peakTorque=2.13,
+              ratedSpeed=3650,
+              noLoadSpeed=6300, #(?)
+              torqueConst=0.109,
+              backEMFConst=7.619, #(?)
+              designVoltage=48,
+              busVoltage=[], # 32 (?)
+              resistance=0.47,
+              inductance=0.91/1000,
+              NPoles=10,
+              outerDiam=69,
+              airgapDiam=[],
+              innerDiam=42,
+              tolalLength=22.6,
+              stackLength=[]) 
+        
+    dictComp['Harmonic Drive CPL-2A 20-160'] = \
+        reducer(name='Harmonic Drive CPL-2A 20-160',
+                reductionRatio=160,
+                efficiency=[], #0.74
+                efficiencyData=[[500, 1000, 2000, 3500],
+                                [0.78, 0.74, 0.66, 0.58]],
+                maxContTorque=49, #average torque
+                maxTempTorque=92, #repeatable peak
+                maxContSpeed=3500,
+                maxTempSpeed=6500)        
+
+    dictComp['Harmonic Drive CSD-2A 25-160'] = \
+        reducer(name='Harmonic Drive CSD-2A 25-160',
+                reductionRatio=160,
+                efficiency=[], #0.66
+                efficiencyData=[[500, 1000, 2000, 3500],
+                                [0.72, 0.66, 0.57, 0.50]],
+                maxContTorque=75, #average torque
+                maxTempTorque=123, #repeatable peak
+                maxContSpeed=3500,
+                maxTempSpeed=5600)
+
     aStr = 'iCub3 medium actuator'
     dictAct[aStr] = actuator(name=aStr,
                              mot=dictComp['MOOG C2900525'],
@@ -518,6 +582,27 @@ def main():
     dictAct[aStr] = actuator(name=aStr,
                              mot=dictComp['Faulhaber 2342S012CR'],
                              red=dictComp['Harmonic Drive HFUC-2A 8-100'])
+    dictAct[aStr].xy1, dictAct[aStr].xy2, dictAct[aStr].xy3 = \
+        computeActuatorCurves(dictAct[aStr])
+
+    aStr = 'eCub2 small joint'
+    dictAct[aStr] = actuator(name=aStr,
+                             mot=dictComp['TQ ILM 50x08 SS'],
+                             red=dictComp['Harmonic Drive CSD-2A 17-100'])
+    dictAct[aStr].xy1, dictAct[aStr].xy2, dictAct[aStr].xy3 = \
+        computeActuatorCurves(dictAct[aStr])
+
+    aStr = 'eCub2 medium joint'
+    dictAct[aStr] = actuator(name=aStr,
+                             mot=dictComp['TQ ILM 50x08 SS'],
+                             red=dictComp['Harmonic Drive CPL-2A 20-160'])
+    dictAct[aStr].xy1, dictAct[aStr].xy2, dictAct[aStr].xy3 = \
+        computeActuatorCurves(dictAct[aStr])
+
+    aStr = 'eCub2 large joint'
+    dictAct[aStr] = actuator(name=aStr,
+                             mot=dictComp['TQ ILM 70x10 DS'],
+                             red=dictComp['Harmonic Drive CSD-2A 25-160'])
     dictAct[aStr].xy1, dictAct[aStr].xy2, dictAct[aStr].xy3 = \
         computeActuatorCurves(dictAct[aStr])
 
