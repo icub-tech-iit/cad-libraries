@@ -85,6 +85,7 @@ search_path ".\..\cad-mechanics\projects\tools"
 !
 ! ----------------------Electronic boards-----------------------------------------
 !
+!
 search_path ".\..\cad-mechanics\projects\electronics\elect_old-school"
 search_path ".\..\cad-mechanics\projects\electronics\electronic_boards"
 !
@@ -116,6 +117,8 @@ search_path ".\..\mechatronics\project\pcb_an_layout\RSB48"
 search_path ".\..\mechatronics\project\pcb_an_layout\USBAD"
 !search_path ".\..\mechatronics\project\pcb_an_layout\UZCB"
 !
+! The following path will go to die
+search_path ".\..\mechatronics\project\obsolete_boards"
 !
 ! ---------------------- Common parts-----------------------------------------
 !
@@ -126,6 +129,7 @@ search_path ".\..\cad-mechanics\projects\common\ic_007_ft45_M3"
 search_path ".\..\cad-mechanics\projects\common\ic_008_ft45_M4"
 search_path ".\..\cad-mechanics\projects\common\ic_014_ergoCub_head"
 search_path ".\..\cad-mechanics\projects\common\IC_027_heatsinks"
+search_path ".\..\cad-mechanics\projects\common\ic_016_custom_fasteners"
 !
 !
 ! ------------------ all gadgets for the robots --------------------------------
