@@ -62,7 +62,7 @@ function prepareDocumentationForBomFromWingst()
     documentationInputFolderPath = pathInputTableName;
     mkdir(join([documentationInputFolderPath, documentationOutputFolderName]));
     
-    for j = ExcelOutputFileStartingLine : ExcelOutputFileStartingLine + numberOfItems
+    for j = ExcelOutputFileStartingLine : ExcelOutputFileStartingLine + numberOfItems - 1
         aliasAsString = inputTable{j, aliasColumnInInputTable};
         revisionAsString = inputTable{j, revisionColumnInInputTable};
         revisionAsString = checkZeroRevision(revisionAsString);
