@@ -9,25 +9,51 @@ global excelBOMRangeWhereAddLines
 global documentationOutputFolderName
 global documentationInputFolderPath
 global ExcelOutputFileStartingLine
+global maximumNumberOfItemsToCheckInBOMTable
+global aliasColumnInBOMTable
 
 numberOfLinesInTheExcelBOM = 16;
 excelBOMRangeWhereAddLines = 'A25:L25';
 documentationOutputFolderName = 'documentation';
 ExcelOutputFileStartingLine = 10;
+maximumNumberOfItemsToCheckInBOMTable = 500;
+aliasColumnInBOMTable = 4;
 
+wingstDatasource = "wingst ODBC driver IIT";
+wingstUsername = "wingstRO";
+wingstPassword = "wingstRO";
 caseBomFromWingst = 1;
 caseBomFromCreo = 2;
+caseRemoveItemsFromSimplifiedBOM = 3;
+caseOpenWingstConnection = 1;
+caseDontOpenWingstConnection = 2;
 
 %% Main
-msg = "Select what you want to do";
-opts = ["I have a BOM from WINGST and I want to rename the production files" "I have a simplified BOM from CREO, I want to rename files and prepare the production BOM"];
-choice = menu(msg,opts);
 
-switch choice
+msg = "Do you want to open WINGST connection?";
+opts = ["Yes" "No"];
+choiceWingstConnection = menu(msg,opts);
+
+switch choiceWingstConnection
+   case caseOpenWingstConnection
+      wingstConnection = database(wingstDatasource,wingstUsername,wingstPassword);
+   case caseDontOpenWingstConnection
+      wingstConnection = '';
+   otherwise
+      error('No correct selection has been provided.')
+end
+
+msg = "Select what you want to do";
+opts = ["I have a BOM from WINGST and I want to rename the production files" "I have a simplified BOM from CREO, I want to rename files and prepare the production BOM" "I want to remove items from the Creo simplified BOM that are already in a production BOM"];
+choiceOperation = menu(msg,opts);
+
+switch choiceOperation
    case caseBomFromWingst
       prepareDocumentationForBomFromWingst()
    case caseBomFromCreo
-      prepareDocumentationForBomFromCreoAndFillProductionBom()
+      prepareDocumentationForBomFromCreoAndFillProductionBom(wingstConnection, false)
+    case caseRemoveItemsFromSimplifiedBOM
+      prepareDocumentationForBomFromCreoAndFillProductionBom(wingstConnection, true)
    otherwise
       error('No correct selection has been provided.')
 end
@@ -74,7 +100,7 @@ end
 
 %% BOM from Creo section
 
-function prepareDocumentationForBomFromCreoAndFillProductionBom()
+function prepareDocumentationForBomFromCreoAndFillProductionBom(wingstConnection, alsoRemoveItems)
 
     global numberOfLinesInTheExcelBOM
     global documentationInputFolderPath
@@ -94,6 +120,10 @@ function prepareDocumentationForBomFromCreoAndFillProductionBom()
 
     if ~quantityColumnIsCorrect
         error('The Excel table is not compliant. Check the QUANTITY column.')
+    end
+
+    if alsoRemoveItems
+        table = removeItemsAlreadyPresentInAnotherExcelFile(table);
     end
 
     numberOfItems = length(table)-1;
@@ -116,6 +146,11 @@ function prepareDocumentationForBomFromCreoAndFillProductionBom()
         xlswrite(excelOutputTableFileWithPath, aliasAsCell, 'Sheet1', join(['D', num2str(i+ExcelOutputFileStartingLine)]))
         xlswrite(excelOutputTableFileWithPath, revisionAsCell, 'Sheet1', join(['E', num2str(i+ExcelOutputFileStartingLine)]))
 
+        if ~ isempty(wingstConnection)
+            code = retrieveWingstCodeFromAlias(wingstConnection, aliasAsString);
+            xlswrite(excelOutputTableFileWithPath, code, 'Sheet1', join(['C', num2str(i+ExcelOutputFileStartingLine)]))
+        end
+
         copyAndRenameProductionFiles(aliasAsString, revisionAsString)
 
     end
@@ -123,6 +158,52 @@ end
 
 
 %% Functions
+
+
+function table = removeItemsAlreadyPresentInAnotherExcelFile(table)
+
+    global maximumNumberOfItemsToCheckInBOMTable
+    global ExcelOutputFileStartingLine
+    global aliasColumnInBOMTable
+    
+    numberOfItems = length(table)-1;
+
+    [excelTableName,pathTableName] = uigetfile({'*.xlsx';'*.xlsx'},'Select the Excel table containing the items to remove. The table must follow the production BOM format');
+
+    tableWithItemsToRemove = readcell(join([pathTableName, excelTableName]));
+
+
+    i = 2;
+    while  i <= numberOfItems
+        aliasAsString = table{i, 3};
+        loopCondition = true;
+        j = 1;
+
+        while loopCondition
+            aliasItemsToRemoveAsString = tableWithItemsToRemove{j + ExcelOutputFileStartingLine, aliasColumnInBOMTable};
+            if ismissing(aliasItemsToRemoveAsString)
+                break
+            end
+            
+            if aliasItemsToRemoveAsString == aliasAsString
+                table(i,:) = [];
+                numberOfItems = numberOfItems - 1;
+                i = i - 1;
+                loopCondition = false;
+            end
+
+            if aliasItemsToRemoveAsString == "Alias" || j > maximumNumberOfItemsToCheckInBOMTable
+                loopCondition = false;
+            end
+
+            j = j + 1;
+        end
+
+        i = i + 1;
+       
+    end
+
+end
 
 function addLines(excelOutputTableFileWithPath, numberOfLinesToAdd)
 
@@ -168,7 +249,7 @@ function copyAndRenameProductionFiles(aliasAsString, revisionAsString)
 end
 
 
-function copyAndRenameFile (originalFileName, modifiedFileName)
+function copyAndRenameFile(originalFileName, modifiedFileName)
 
     global documentationOutputFolderName
     global documentationInputFolderPath
@@ -178,4 +259,11 @@ function copyAndRenameFile (originalFileName, modifiedFileName)
         outputFileNameWithDirectory = join([documentationInputFolderPath, documentationOutputFolderName, '\', modifiedFileName]);
         copyfile(originalFileNameWithDirectory, outputFileNameWithDirectory);
     end
+end
+
+function code = retrieveWingstCodeFromAlias(wingstConnection, alias)
+    aliasForQuery = join(['"', alias, '"']);
+    selectquery = join(['SELECT * FROM anamag WHERE mag_alias = ', aliasForQuery]);
+    data_alias = select(wingstConnection,selectquery);
+    code = data_alias.mag_id;
 end
