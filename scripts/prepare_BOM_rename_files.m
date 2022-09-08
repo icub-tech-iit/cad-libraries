@@ -9,14 +9,12 @@ global excelBOMRangeWhereAddLines
 global documentationOutputFolderName
 global documentationInputFolderPath
 global ExcelOutputFileStartingLine
-global maximumNumberOfItemsToCheckInBOMTable
 global aliasColumnInBOMTable
 
 numberOfLinesInTheExcelBOM = 16;
 excelBOMRangeWhereAddLines = 'A25:L25';
 documentationOutputFolderName = 'documentation';
 ExcelOutputFileStartingLine = 10;
-maximumNumberOfItemsToCheckInBOMTable = 500;
 aliasColumnInBOMTable = 4;
 
 wingstDatasource = "wingst ODBC driver IIT";
@@ -161,8 +159,6 @@ end
 
 
 function table = removeItemsAlreadyPresentInAnotherExcelFile(table)
-
-    global maximumNumberOfItemsToCheckInBOMTable
     global ExcelOutputFileStartingLine
     global aliasColumnInBOMTable
     
@@ -171,6 +167,7 @@ function table = removeItemsAlreadyPresentInAnotherExcelFile(table)
     [excelTableName,pathTableName] = uigetfile({'*.xlsx';'*.xlsx'},'Select the Excel table containing the items to remove. The table must follow the production BOM format');
 
     tableWithItemsToRemove = readcell(join([pathTableName, excelTableName]));
+    maximumNumberOfItemsToCheckInBOMTable = length(tableWithItemsToRemove) - ExcelOutputFileStartingLine;
 
 
     i = 2;
@@ -192,7 +189,7 @@ function table = removeItemsAlreadyPresentInAnotherExcelFile(table)
                 loopCondition = false;
             end
 
-            if aliasItemsToRemoveAsString == "Alias" || j > maximumNumberOfItemsToCheckInBOMTable
+            if aliasItemsToRemoveAsString == "Alias" || j >= maximumNumberOfItemsToCheckInBOMTable
                 loopCondition = false;
             end
 
