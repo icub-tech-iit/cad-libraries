@@ -14,7 +14,8 @@
 !   07    2022/01/27   savoldi   added deprecated drawing format
 !   08    2022/02/09   protopapa added tool folder
 !   09    2022/04/28   Savoldi   added electronic board to cad-mechanics + added titles
-!   09    2022/07/13   Salvi    added ergocub
+!   010    2022/07/13   Salvi    added ergocub
+!   011    2022/04/28   Savoldi  Removed the folders of the electronic boards in mechatronics
 
 !
 !
@@ -83,7 +84,7 @@ search_path ".\..\cad-mechanics\projects\simulation_model\icub3"
 !
 search_path ".\..\cad-mechanics\projects\tools"
 !
-! ----------------------Electronic boards-----------------------------------------
+! ----------------------Custom electronic boards-----------------------------------------
 !
 !
 search_path ".\..\cad-mechanics\projects\electronics\elect_old-school"
@@ -92,30 +93,6 @@ search_path ".\..\cad-mechanics\projects\electronics\electronic_boards"
 search_path ".\libraries\electronics\custom_boards"
 search_path ".\libraries\electronics\custom_boards\eletronics-boards"
 search_path ".\libraries\electronics\custom_boards\eletronics-PCA"
-!
-!search_path ".\..\mechatronics\"
-!search_path ".\..\mechatronics\project\pcb_an_layout"
-search_path ".\..\mechatronics\project\pcb_an_layout\2FOC"
-search_path ".\..\mechatronics\project\pcb_an_layout\AEA3_SSI"
-!search_path ".\..\mechatronics\project\pcb_an_layout\AMC_and_AMC-BLDC"
-search_path ".\..\mechatronics\project\pcb_an_layout\EMS-EADP"
-search_path ".\..\mechatronics\project\pcb_an_layout\FAP_L"
-search_path ".\..\mechatronics\project\pcb_an_layout\FAP5"
-search_path ".\..\mechatronics\project\pcb_an_layout\FFAP"
-search_path ".\..\mechatronics\project\pcb_an_layout\FT3DB"
-search_path ".\..\mechatronics\project\pcb_an_layout\FTX"
-search_path ".\..\mechatronics\project\pcb_an_layout\HVPM"
-search_path ".\..\mechatronics\project\pcb_an_layout\JOGGER"
-search_path ".\..\mechatronics\project\pcb_an_layout\MRIE"
-search_path ".\..\mechatronics\project\pcb_an_layout\MTB5"
-search_path ".\..\mechatronics\project\pcb_an_layout\PFMDA"
-search_path ".\..\mechatronics\project\pcb_an_layout\PMC5_L"
-search_path ".\..\mechatronics\project\pcb_an_layout\PMC-L"
-search_path ".\..\mechatronics\project\pcb_an_layout\PSC"
-!search_path ".\..\mechatronics\project\pcb_an_layout\RFE"
-search_path ".\..\mechatronics\project\pcb_an_layout\RSB48"
-search_path ".\..\mechatronics\project\pcb_an_layout\USBAD"
-!search_path ".\..\mechatronics\project\pcb_an_layout\UZCB"
 !
 ! The following path will go to die
 search_path ".\..\mechatronics\project\obsolete_boards"
