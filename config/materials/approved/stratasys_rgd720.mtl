@@ -1,18 +1,19 @@
 ﻿ND_RelParSet_K01 = {
 
-Name = VTR-FR4
+Name = STRATASYS_RGD720
 
 PARAMETERS =
 {
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
-  Default = ''
+  Default = 'Translucent material for see-through parts and prototypes.
+Src: datasheet'
   Access = Full
 },
 {
   Name = TEMPERATURE
   Type = Real
-  Default = 0.000000e+00 F
+  Default = 0.000000e+00 C
   Access = Full
 },
 {
@@ -54,25 +55,25 @@ PARAMETERS =
 {
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 1.850000e+03 kg/m^3
-  Access = Full
-},
-{
-  Name = PTC_POISSON_RATIO
-  Type = Real
-  Default = 1.360000e-01
+  Default = 1.190000e+00 g/cm^3
   Access = Full
 },
 {
   Name = PTC_YOUNG_MODULUS
   Type = Real
-  Default = 2.400000e+01 GPa
+  Default = 2.000000e+00 GPa
   Access = Full
 },
 {
-  Name = PTC_APPEARANCE_1
-  Type = String
-  Default = 'vtr-fr4_new_app'
+  Name = PTC_POISSON_RATIO
+  Type = Real
+  Default = 3.000000e-01
+  Access = Full
+},
+{
+  Name = PTC_TENSILE_ULTIMATE_STRESS
+  Type = Real
+  Default = 5.000000e+01 MPa
   Access = Full
 }
 
