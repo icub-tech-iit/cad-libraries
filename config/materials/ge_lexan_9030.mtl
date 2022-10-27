@@ -1,12 +1,13 @@
 ﻿ND_RelParSet_K01 = {
 
-Name = POM-DELRIN
+Name = GE_LEXAN_9030
 
 PARAMETERS =
 {
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
-  Default = ''
+  Default = 'Standard grade of Lexan (polycarbonate) sheet.
+Src: datasheet'
   Access = Full
 },
 {
@@ -18,13 +19,13 @@ PARAMETERS =
 {
   Name = PTC_INITIAL_BEND_Y_FACTOR
   Type = Real
-  Default = 6.400000e-01
+  Default = 5.000000e-01
   Access = Full
 },
 {
   Name = PTC_BEND_TABLE
   Type = String
-  Default = 'DELRIN'
+  Default = ''
   Access = Full
 },
 {
@@ -52,45 +53,33 @@ PARAMETERS =
   Access = Locked
 },
 {
-  Name = PTC_MASS_DENSITY
-  Type = Real
-  Default = 1.400000e-06 kg/mm^3
-  Access = Full
-},
-{
-  Name = PRO_UNIT_SYS
-  Type = String
-  Default = 'Custom'
-  Access = Full
-},
-{
-  Name = PTC_XHATCH_FILE
-  Type = String
-  Default = 'DELRIN'
-  Access = Full
-},
-{
   Name = PTC_TENSILE_YIELD_STRESS
   Type = Real
-  Default = 6.500000e+01 MPa
+  Default = 6.000000e+01 MPa
+  Access = Full
+},
+{
+  Name = PTC_TENSILE_ULTIMATE_STRESS
+  Type = Real
+  Default = 7.000000e+01 MPa
+  Access = Full
+},
+{
+  Name = PTC_MASS_DENSITY
+  Type = Real
+  Default = 1.200000e+00 g/cm^3
   Access = Full
 },
 {
   Name = PTC_YOUNG_MODULUS
   Type = Real
-  Default = 3.000000e+03 MPa
+  Default = 2.350000e+00 GPa
   Access = Full
 },
 {
   Name = PTC_POISSON_RATIO
   Type = Real
-  Default = 3.000000e-01
-  Access = Full
-},
-{
-  Name = PTC_THERMAL_EXPANSION_COEF
-  Type = Real
-  Default = 9.000000e-05 /C
+  Default = 3.600000e-01
   Access = Full
 }
 

@@ -1,12 +1,13 @@
 ﻿ND_RelParSet_K01 = {
 
-Name = SLM_STAINLESS_STEEL_AISI316L
+Name = ISO1043_PE_500
 
 PARAMETERS =
 {
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
-  Default = ''
+  Default = 'Rigid PE with low friction coefficient and excellent machinability.
+Src: matweb'
   Access = Full
 },
 {
@@ -54,7 +55,25 @@ PARAMETERS =
 {
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 8.060000e-06 kg/mm^3
+  Default = 9.500000e-01 g/cm^3
+  Access = Full
+},
+{
+  Name = PTC_POISSON_RATIO
+  Type = Real
+  Default = 4.600000e-01
+  Access = Full
+},
+{
+  Name = PTC_YOUNG_MODULUS
+  Type = Real
+  Default = 8.000000e-01 GPa
+  Access = Full
+},
+{
+  Name = PTC_TENSILE_ULTIMATE_STRESS
+  Type = Real
+  Default = 2.600000e+01 MPa
   Access = Full
 }
 
