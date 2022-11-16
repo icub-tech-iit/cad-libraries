@@ -4,31 +4,6 @@ Name = AISI_630
 
 PARAMETERS =
 {
-  Name = PTC_MATERIAL_DESCRIPTION
-  Type = String
-  Default = 'Stainless steel with excellent mech props, cond. H 1075. Aka 17-4PH.
-Src: matweb'
-  Access = Full
-},
-{
-  Name = TEMPERATURE
-  Type = Real
-  Default = 0.000000e+00 C
-  Access = Full
-},
-{
-  Name = PTC_INITIAL_BEND_Y_FACTOR
-  Type = Real
-  Default = 5.000000e-01
-  Access = Full
-},
-{
-  Name = PTC_BEND_TABLE
-  Type = String
-  Default = ''
-  Access = Full
-},
-{
   Name = PTC_MATERIAL_TYPE
   Type = Integer
   Default = 9
@@ -53,15 +28,40 @@ Src: matweb'
   Access = Locked
 },
 {
+  Name = PTC_MATERIAL_DESCRIPTION
+  Type = String
+  Default = 'Stainless steel with excellent mech props. Aka 17-4PH.
+Src: matweb, sidex'
+  Access = Full
+},
+{
+  Name = TEMPERATURE
+  Type = Real
+  Default = 0.000000e+00 C
+  Access = Full
+},
+{
+  Name = PTC_INITIAL_BEND_Y_FACTOR
+  Type = Real
+  Default = 5.000000e-01
+  Access = Full
+},
+{
+  Name = PTC_BEND_TABLE
+  Type = String
+  Default = ''
+  Access = Full
+},
+{
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 7.810000e+00 g/cm^3
+  Default = 7.750000e+00 g/cm^3
   Access = Full
 },
 {
   Name = PTC_POISSON_RATIO
   Type = Real
-  Default = 3.000000e-01
+  Default = 2.720000e-01
   Access = Full
 },
 {
@@ -73,13 +73,13 @@ Src: matweb'
 {
   Name = PTC_TENSILE_YIELD_STRESS
   Type = Real
-  Default = 1.020000e+03 MPa
+  Default = 1.000000e+03 MPa
   Access = Full
 },
 {
   Name = PTC_TENSILE_ULTIMATE_STRESS
   Type = Real
-  Default = 1.131000e+03 MPa
+  Default = 1.105000e+03 MPa
   Access = Full
 }
 
