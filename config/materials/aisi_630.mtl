@@ -31,7 +31,7 @@ PARAMETERS =
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
   Default = 'Stainless steel with excellent mech props. Aka 17-4PH.
-Src: matweb, sidex'
+Src: ak steel datasheet'
   Access = Full
 },
 {
@@ -55,31 +55,31 @@ Src: matweb, sidex'
 {
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 7.750000e+00 g/cm^3
+  Default = 7.780000e+00 g/cm^3
   Access = Full
 },
 {
   Name = PTC_POISSON_RATIO
   Type = Real
-  Default = 2.720000e-01
+  Default = 2.910000e-01
   Access = Full
 },
 {
   Name = PTC_YOUNG_MODULUS
   Type = Real
-  Default = 1.970000e+02 GPa
+  Default = 2.010000e+02 GPa
   Access = Full
 },
 {
   Name = PTC_TENSILE_YIELD_STRESS
   Type = Real
-  Default = 1.000000e+03 MPa
+  Default = 8.965000e+02 MPa
   Access = Full
 },
 {
   Name = PTC_TENSILE_ULTIMATE_STRESS
   Type = Real
-  Default = 1.105000e+03 MPa
+  Default = 1.017000e+03 MPa
   Access = Full
 }
 
