@@ -16,6 +16,7 @@
 !   09    2022/04/28   Savoldi   added electronic board to cad-mechanics + added titles
 !   010    2022/07/13   Salvi    added ergocub
 !   011    2022/04/28   Savoldi  Removed the folders of the electronic boards in mechatronics
+!	012	   2022/11/24  protopapa added lower arm path (but wondering if it is worth to manually fill this list anymore)
 
 !
 !
@@ -105,8 +106,9 @@ search_path ".\..\cad-mechanics\projects\common\ic_005_ft58"
 search_path ".\..\cad-mechanics\projects\common\ic_007_ft45_M3"
 search_path ".\..\cad-mechanics\projects\common\ic_008_ft45_M4"
 search_path ".\..\cad-mechanics\projects\common\ic_014_ergoCub_head"
-search_path ".\..\cad-mechanics\projects\common\IC_027_heatsinks"
 search_path ".\..\cad-mechanics\projects\common\ic_016_custom_fasteners"
+search_path ".\..\cad-mechanics\projects\common\ic_021_lower_arm"
+search_path ".\..\cad-mechanics\projects\common\ic_027_heatsinks"
 !
 !
 ! ------------------ all gadgets for the robots --------------------------------
