@@ -66,19 +66,19 @@ PARAMETERS =
 {
   Name = PTC_XHATCH_FILE
   Type = String
-  Default = 'ERGAL70'
+  Default = 'NEODYMIUM_N35'
   Access = Full
 },
 {
   Name = PTC_POISSON_RATIO
   Type = Real
-  Default = 3.300000e-01
+  Default = 3.100000e-01
   Access = Full
 },
 {
   Name = PTC_YOUNG_MODULUS
   Type = Real
-  Default = 7.200000e+04 MPa
+  Default = 4.150000e+04 MPa
   Access = Full
 }
 
