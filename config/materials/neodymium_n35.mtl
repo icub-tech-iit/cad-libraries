@@ -73,7 +73,7 @@ src: matweb'
 {
   Name = PTC_YOUNG_MODULUS
   Type = Real
-  Default = 1.600000e-03 kPa
+  Default = 1.600000e+05 MPa
   Access = Full
 },
 {
@@ -85,13 +85,13 @@ src: matweb'
 {
   Name = PTC_TENSILE_YIELD_STRESS
   Type = Real
-  Default = 7.500000e+01 MPa
+  Default = 7.500000e+04 kPa
   Access = Full
 },
 {
   Name = PTC_TENSILE_ULTIMATE_STRESS
   Type = Real
-  Default = 8.000000e+01 MPa
+  Default = 8.000000e+04 kPa
   Access = Full
 }
 
