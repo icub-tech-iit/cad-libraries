@@ -4,30 +4,6 @@ Name = NEODYMIUM_N35
 
 PARAMETERS =
 {
-  Name = PTC_MATERIAL_DESCRIPTION
-  Type = String
-  Default = ''
-  Access = Full
-},
-{
-  Name = TEMPERATURE
-  Type = Real
-  Default = 0.000000e+00 C
-  Access = Full
-},
-{
-  Name = PTC_INITIAL_BEND_Y_FACTOR
-  Type = Real
-  Default = 6.400000e-01
-  Access = Full
-},
-{
-  Name = PTC_BEND_TABLE
-  Type = String
-  Default = 'ERGAL_70'
-  Access = Full
-},
-{
   Name = PTC_MATERIAL_TYPE
   Type = Integer
   Default = 9
@@ -52,9 +28,28 @@ PARAMETERS =
   Access = Locked
 },
 {
+  Name = PTC_MATERIAL_DESCRIPTION
+  Type = String
+  Default = 'NdFeB alloy for permanent magnets - grade N35
+src: matweb'
+  Access = Full
+},
+{
+  Name = TEMPERATURE
+  Type = Real
+  Default = 0.000000e+00 C
+  Access = Full
+},
+{
+  Name = PTC_BEND_TABLE
+  Type = String
+  Default = ''
+  Access = Full
+},
+{
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 7.500000e+00 g / cm^3
+  Default = 7.500000e-06 kg / mm^3
   Access = Full
 },
 {
@@ -72,13 +67,31 @@ PARAMETERS =
 {
   Name = PTC_POISSON_RATIO
   Type = Real
-  Default = 3.100000e-01
+  Default = 2.400000e-01
   Access = Full
 },
 {
   Name = PTC_YOUNG_MODULUS
   Type = Real
-  Default = 4.150000e+04 MPa
+  Default = 1.600000e-03 kPa
+  Access = Full
+},
+{
+  Name = PTC_INITIAL_BEND_Y_FACTOR
+  Type = Real
+  Default = 5.000000e-01
+  Access = Full
+},
+{
+  Name = PTC_TENSILE_YIELD_STRESS
+  Type = Real
+  Default = 7.500000e+01 MPa
+  Access = Full
+},
+{
+  Name = PTC_TENSILE_ULTIMATE_STRESS
+  Type = Real
+  Default = 8.000000e+01 MPa
   Access = Full
 }
 
