@@ -316,8 +316,6 @@ menu_show_instances no
 provide_pick_message_always yes
 tol_display yes
 2d_palette_path .\config\custom_sketches
-! add PRO/Toolkit link for SimMechanics Export
-!toolkit_registry_file .\config\smlink.dat
 save_model_display shading_low
 spin_center_display no
 remember_replaced_components no
