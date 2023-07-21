@@ -14,7 +14,7 @@ clc
 
 wingstDatasource = "wingst ODBC driver IIT";
 wingstUsername = "wingstRO";
-wingstPassword = "wingstRO";
+wingstPassword = "WriteMe";
 caseOpenWingstConnection = 1;
 caseDontOpenWingstConnection = 2;
 
