@@ -16,8 +16,8 @@
 !   09    2022/04/28   Savoldi   added electronic board to cad-mechanics + added titles
 !   010    2022/07/13   Salvi    added ergocub
 !   011    2022/04/28   Savoldi  Removed the folders of the electronic boards in mechatronics
-!	012	   2022/11/24  protopapa added lower arm path (but wondering if it is worth to manually fill this list anymore)
-
+!   012	   2022/11/24  protopapa added lower arm path (but wondering if it is worth to manually fill this list anymore)
+!   013    2023/08/01   Savoldi  Added "ic_020_elect_board_group" and "FT_Sensor_fake" for ergocub 2 arm setup
 !
 !
 ! ----------------------Libraries parts-----------------------------------------
@@ -70,6 +70,8 @@ search_path ".\..\cad-mechanics\projects\icub\common\ic_010_shipping_rack"
 search_path ".\..\cad-mechanics\projects\icub\common\ic_011_Neuro_STD"
 search_path ".\..\cad-mechanics\projects\icub\common\ic_013_STD_iCub3_head"
 search_path ".\..\cad-mechanics\projects\icub\common\ic_016_blink_head"
+search_path ".\..\cad-mechanics\projects\icub\common\ic_020_elect_board_group"
+search_path ".\..\cad-mechanics\projects\icub\common\FT_Sensor_fake"
 !
 search_path ".\..\cad-mechanics\projects\icub\icub1_icub2"
 !
