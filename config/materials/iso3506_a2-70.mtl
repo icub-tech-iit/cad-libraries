@@ -36,7 +36,7 @@ PARAMETERS =
 {
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 7.900000e-06 kg/mm^3
+  Default = 7.900000e-06 kg / mm^3
   Access = Full
 },
 {
@@ -54,19 +54,19 @@ PARAMETERS =
 {
   Name = PTC_THERMAL_CONDUCTIVITY
   Type = Real
-  Default = 1.500000e+04 mm kg /(sec^3 C)
+  Default = 1.500000e+04 mm kg / (sec^3 C)
   Access = Full
 },
 {
   Name = PTC_THERMAL_EXPANSION_COEF
   Type = Real
-  Default = 1.700000e-05 /C
+  Default = 1.700000e-05 1 / C
   Access = Full
 },
 {
   Name = PTC_SPECIFIC_HEAT
   Type = Real
-  Default = 5.100000e+08 mm^2/(sec^2 C)
+  Default = 5.100000e+08 mm^2 / (sec^2 C)
   Access = Full
 },
 {
@@ -102,7 +102,7 @@ PARAMETERS =
 {
   Name = PTC_TENSILE_ULTIMATE_STRESS
   Type = Real
-  Default = 7.000000e+02 kPa
+  Default = 7.000000e+02 MPa
   Access = Full
 }
 
