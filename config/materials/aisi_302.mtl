@@ -4,6 +4,30 @@ Name = AISI_302
 
 PARAMETERS =
 {
+  Name = PTC_MATERIAL_TYPE
+  Type = Integer
+  Default = 9
+  Access = Locked
+},
+{
+  Name = PTC_FAILURE_CRITERION_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_FATIGUE_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_MATERIAL_SUB_TYPE
+  Type = String
+  Default = 'LINEAR'
+  Access = Locked
+},
+{
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
   Default = 'Harmonic stainless steel for springs (half-hard values).
@@ -29,33 +53,9 @@ Src: matmatch'
   Access = Full
 },
 {
-  Name = PTC_MATERIAL_TYPE
-  Type = Integer
-  Default = 9
-  Access = Locked
-},
-{
-  Name = PTC_FAILURE_CRITERION_TYPE
-  Type = String
-  Default = 'NONE'
-  Access = Locked
-},
-{
-  Name = PTC_FATIGUE_TYPE
-  Type = String
-  Default = 'NONE'
-  Access = Locked
-},
-{
-  Name = PTC_MATERIAL_SUB_TYPE
-  Type = String
-  Default = 'LINEAR'
-  Access = Locked
-},
-{
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 7.800000e+00 g/cm^3
+  Default = 7.800000e+00 g / cm^3
   Access = Full
 },
 {
@@ -73,13 +73,13 @@ Src: matmatch'
 {
   Name = PTC_TENSILE_YIELD_STRESS
   Type = Real
-  Default = 1.190000e+03 MPa
+  Default = 8.700000e+02 MPa
   Access = Full
 },
 {
   Name = PTC_TENSILE_ULTIMATE_STRESS
   Type = Real
-  Default = 8.700000e+02 MPa
+  Default = 1.190000e+03 kPa
   Access = Full
 }
 

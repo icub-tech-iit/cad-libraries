@@ -4,6 +4,30 @@ Name = AISI_304
 
 PARAMETERS =
 {
+  Name = PTC_MATERIAL_TYPE
+  Type = Integer
+  Default = 9
+  Access = Locked
+},
+{
+  Name = PTC_FAILURE_CRITERION_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_FATIGUE_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_MATERIAL_SUB_TYPE
+  Type = String
+  Default = 'LINEAR'
+  Access = Locked
+},
+{
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
   Default = 'AISI 304 stainless steel, annealed bar.
@@ -29,33 +53,9 @@ Src: matweb'
   Access = Full
 },
 {
-  Name = PTC_MATERIAL_TYPE
-  Type = Integer
-  Default = 9
-  Access = Locked
-},
-{
-  Name = PTC_FAILURE_CRITERION_TYPE
-  Type = String
-  Default = 'NONE'
-  Access = Locked
-},
-{
-  Name = PTC_FATIGUE_TYPE
-  Type = String
-  Default = 'NONE'
-  Access = Locked
-},
-{
-  Name = PTC_MATERIAL_SUB_TYPE
-  Type = String
-  Default = 'LINEAR'
-  Access = Locked
-},
-{
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 8.000000e+00 g/cm^3
+  Default = 8.000000e+00 g / cm^3
   Access = Full
 },
 {
@@ -79,7 +79,7 @@ Src: matweb'
 {
   Name = PTC_TENSILE_YIELD_STRESS
   Type = Real
-  Default = 2.150000e+02 kPa
+  Default = 2.150000e+02 MPa
   Access = Full
 }
 
