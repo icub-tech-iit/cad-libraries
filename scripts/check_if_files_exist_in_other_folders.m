@@ -66,7 +66,7 @@ function [exists, filePath] = checkFileExists(filePath)
     exists = any(~[files.isdir]);
     
     if exists
-        filePath = fullfile(pwd, files(1).folder);
+        filePath = files(1).folder;
     else
         filePath = 'Not found';
     end
