@@ -1,3 +1,15 @@
+%% This script checks if any of the files contained in `folder 1`
+%% are found also in `folder 2` (or any of its subfolders.
+%% The script then generates a report with the duplicated files. 
+%%
+%% Author: Luca Fiorio
+%% Date: 20 July 2023
+
+
+clear all
+close all
+clc
+
 % Select Folder 1 (Folder containing files to be checked)
 folder1 = uigetdir('', 'Select Folder with Files to Check');
 
