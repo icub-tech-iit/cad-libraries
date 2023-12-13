@@ -54,7 +54,6 @@ for i = 1:length(filesFolder1)
 end
 
 % Display the reports in the command window
-% Display the reports in the command window
 if ~isempty(reportFound)
     disp('Files Found in Folder 2:');
     for i = 1:numel(reportFound)
