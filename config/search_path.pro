@@ -72,6 +72,7 @@ search_path ".\..\cad-mechanics\projects\icub\common\ic_013_STD_iCub3_head"
 search_path ".\..\cad-mechanics\projects\icub\common\ic_016_blink_head"
 search_path ".\..\cad-mechanics\projects\icub\common\ic_020_elect_board_group"
 search_path ".\..\cad-mechanics\projects\icub\common\FT_Sensor_fake"
+search_path ".\..\cad-mechanics\projects\icub\common\ic_032_4khead"
 !
 search_path ".\..\cad-mechanics\projects\icub\icub1_icub2"
 !
