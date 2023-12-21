@@ -29,6 +29,7 @@
 !*.xlsx
 !*.py
 !*.m
+!*.mlx
 !*/
 # Accepted modelcheck files extension
 !*.mcc
