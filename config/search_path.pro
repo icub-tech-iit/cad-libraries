@@ -72,7 +72,6 @@ search_path ".\..\cad-mechanics\projects\icub\common\ic_013_STD_iCub3_head"
 search_path ".\..\cad-mechanics\projects\icub\common\ic_016_blink_head"
 search_path ".\..\cad-mechanics\projects\icub\common\ic_020_elect_board_group"
 search_path ".\..\cad-mechanics\projects\icub\common\FT_Sensor_fake"
-search_path ".\..\cad-mechanics\projects\icub\common\IC_032_4khead"
 !
 search_path ".\..\cad-mechanics\projects\icub\icub1_icub2"
 !
@@ -112,6 +111,7 @@ search_path ".\..\cad-mechanics\projects\common\ic_014_ergoCub_head"
 search_path ".\..\cad-mechanics\projects\common\ic_016_custom_fasteners"
 search_path ".\..\cad-mechanics\projects\common\ic_021_lower_arm"
 search_path ".\..\cad-mechanics\projects\common\ic_027_heatsinks"
+search_path ".\..\cad-mechanics\projects\common\ic_032_4khead"
 !
 !
 ! ------------------ all gadgets for the robots --------------------------------
