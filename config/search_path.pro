@@ -112,6 +112,7 @@ search_path ".\..\cad-mechanics\projects\common\ic_014_ergoCub_head"
 search_path ".\..\cad-mechanics\projects\common\ic_016_custom_fasteners"
 search_path ".\..\cad-mechanics\projects\common\ic_021_lower_arm"
 search_path ".\..\cad-mechanics\projects\common\ic_027_heatsinks"
+search_path ".\..\cad-mechanics\projects\common\ic_032_4khead"
 !
 !
 ! ------------------ all gadgets for the robots --------------------------------
