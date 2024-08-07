@@ -18,6 +18,7 @@
 !   011    2022/04/28   Savoldi  Removed the folders of the electronic boards in mechatronics
 !   012	   2022/11/24  protopapa added lower arm path (but wondering if it is worth to manually fill this list anymore)
 !   013    2023/08/01   Savoldi  Added "ic_020_elect_board_group" and "FT_Sensor_fake" for ergocub 2 arm setup
+!   014    2024/08/07   Savoldi  Added folders for battery pack in cad-mechanics
 !
 !
 ! ----------------------Libraries parts-----------------------------------------
@@ -100,6 +101,8 @@ search_path ".\..\cad-mechanics\projects\electronics\electronic_boards"
 search_path ".\libraries\electronics\custom_boards"
 search_path ".\libraries\electronics\custom_boards\eletronics-boards"
 search_path ".\libraries\electronics\custom_boards\eletronics-PCA"
+!
+search_path ".\libraries\electronics\batteries"
 !
 ! The following path will go to die
 search_path ".\..\mechatronics\project\obsolete_boards"
