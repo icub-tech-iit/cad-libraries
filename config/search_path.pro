@@ -98,11 +98,11 @@ search_path ".\..\cad-mechanics\projects\tools"
 search_path ".\..\cad-mechanics\projects\electronics\elect_old-school"
 search_path ".\..\cad-mechanics\projects\electronics\electronic_boards"
 !
-search_path ".\libraries\electronics\custom_boards"
-search_path ".\libraries\electronics\custom_boards\eletronics-boards"
-search_path ".\libraries\electronics\custom_boards\eletronics-PCA"
+search_path ".\..\libraries\electronics\custom_boards"
+search_path ".\..\libraries\electronics\custom_boards\eletronics-boards"
+search_path ".\..\libraries\electronics\custom_boards\eletronics-PCA"
 !
-search_path ".\cad-mechanics\projects\electronics\batteries"
+search_path ".\..\cad-mechanics\projects\electronics\batteries"
 !
 ! The following path will go to die
 search_path ".\..\mechatronics\project\obsolete_boards"
