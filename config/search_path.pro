@@ -102,7 +102,7 @@ search_path ".\libraries\electronics\custom_boards"
 search_path ".\libraries\electronics\custom_boards\eletronics-boards"
 search_path ".\libraries\electronics\custom_boards\eletronics-PCA"
 !
-search_path ".\libraries\electronics\batteries"
+search_path ".\cad-mechanics\projects\electronics\batteries"
 !
 ! The following path will go to die
 search_path ".\..\mechatronics\project\obsolete_boards"
