@@ -65,8 +65,6 @@ Source: datasheet from Momotek supplier'
   Access = Full
 },
 {
-},
-{
   Name = PTC_TENSILE_ULTIMATE_STRESS
   Type = Real
   Default = 4.500000e+01 MPa
