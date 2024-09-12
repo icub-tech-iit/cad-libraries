@@ -1,6 +1,6 @@
 ﻿ND_RelParSet_K01 = {
 
-Name = MOMOTEK_ABS
+Name = iso1043_ABS
 
 PARAMETERS =
 {
@@ -31,7 +31,7 @@ PARAMETERS =
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
   Default = 'ABS for CNC machining
-Source: datasheet from supplier '
+Source: datasheet from supplier'
   Access = Full
 },
 {
@@ -62,6 +62,14 @@ Source: datasheet from supplier '
   Name = PTC_YOUNG_MODULUS
   Type = Real
   Default = 2.300000e+03 N / mm^2
+  Access = Full
+},
+{
+},
+{
+  Name = PTC_TENSILE_ULTIMATE_STRESS
+  Type = Real
+  Default = 4.500000e+01 MPa
   Access = Full
 },
 {
