@@ -1,6 +1,6 @@
 ﻿ND_RelParSet_K01 = {
 
-Name = iso1043_ABS
+Name = ISO1043_ABS
 
 PARAMETERS =
 {
@@ -31,7 +31,7 @@ PARAMETERS =
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
   Default = 'ABS for CNC machining
-Source: datasheet from supplier'
+Source: datasheet from Momotek supplier'
   Access = Full
 },
 {
@@ -75,7 +75,7 @@ Source: datasheet from supplier'
 {
   Name = PTC_POISSON_RATIO
   Type = Real
-  Default = 3.500000e-01
+  Default = 3.600000e-01
   Access = Full
 },
 {
