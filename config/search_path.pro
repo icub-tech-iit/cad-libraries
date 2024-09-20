@@ -61,7 +61,7 @@ search_path ".\..\cad-mechanics\projects\cer\cer_028_chest_mk2"
 search_path ".\..\cad-mechanics\projects\cer\cer_029_covers_mk2"
 search_path ".\..\cad-mechanics\projects\cer\cer_030_head_mk3"
 search_path ".\..\cad-mechanics\projects\cer\cer_031_head_mk4_obsolete"
-!
+search_path ".\..\cad-mechanics\projects\cer\cer_ergomorphing"
 search_path ".\..\cad-mechanics\projects\icub"
 search_path ".\..\cad-mechanics\projects\icub\common"
 search_path ".\..\cad-mechanics\projects\icub\common\ic_002_standard_head"
