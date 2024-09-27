@@ -60,7 +60,7 @@ PARAMETERS =
 {
   Name = PTC_POISSON_RATIO
   Type = Real
-  Default = 3.300000e-01
+  Default = 4.100000e-01
   Access = Full
 },
 {
