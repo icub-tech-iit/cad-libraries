@@ -119,7 +119,7 @@ search_path ".\..\cad-mechanics\projects\common\ic_016_custom_fasteners"
 search_path ".\..\cad-mechanics\projects\common\ic_021_lower_arm"
 search_path ".\..\cad-mechanics\projects\common\ic_027_heatsinks"
 search_path ".\..\cad-mechanics\projects\common\ic_032_4khead"
-search_path ".\..\cad-mechanics\projects\common\ic_033_headedge"
+search_path ".\..\cad-mechanics\projects\common\ic_033-034_headedge"
 !
 !
 ! ------------------ all gadgets for the robots --------------------------------
