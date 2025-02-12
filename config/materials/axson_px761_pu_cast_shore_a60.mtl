@@ -79,13 +79,7 @@ FOR TECHNICAL PARTS AND PROTOTYPES, shore A60'
 {
   Name = PTC_TENSILE_YIELD_STRESS
   Type = Real
-  Default = 2.000000e+00 MPa
-  Access = Full
-},
-{
-  Name = PTC_TENSILE_ULTIMATE_STRESS
-  Type = Real
-  Default = 1.100000e+01 MPa
+  Default = 2.000000e+03 kPa
   Access = Full
 }
 
