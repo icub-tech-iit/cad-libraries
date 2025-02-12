@@ -87,7 +87,7 @@ search_path ".\..\cad-mechanics\projects\simulation_model"
 search_path ".\..\cad-mechanics\projects\simulation_model\head"
 search_path ".\..\cad-mechanics\projects\simulation_model\icub3"
 search_path ".\..\cad-mechanics\projects\simulation_model\ergocub_1-0"
-search_path ".\..\cad-mechanics\projects\simulation_model\ergocub_1-1"
+search_path ".\..\cad-mechanics\projects\simulation_model\ergocub_1-x"
 search_path ".\..\cad-mechanics\projects\simulation_model\cer"
 !
 search_path ".\..\cad-mechanics\projects\tools"
