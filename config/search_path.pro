@@ -19,6 +19,7 @@
 !   012	   2022/11/24  protopapa added lower arm path (but wondering if it is worth to manually fill this list anymore)
 !   013    2023/08/01   Savoldi  Added "ic_020_elect_board_group" and "FT_Sensor_fake" for ergocub 2 arm setup
 !   014    2024/08/07   Savoldi  Added folders for battery pack in cad-mechanics
+!   014    2025/02/12   Savoldi  Added folders for electronic board assembly IC_020
 !
 !
 ! ----------------------Libraries parts-----------------------------------------
@@ -74,6 +75,7 @@ search_path ".\..\cad-mechanics\projects\icub\common\ic_016_blink_head"
 search_path ".\..\cad-mechanics\projects\icub\common\ic_020_elect_board_group"
 search_path ".\..\cad-mechanics\projects\icub\common\FT_Sensor_fake"
 search_path ".\..\cad-mechanics\projects\icub\common\ic_032_4khead"
+search_path ".\..\cad-mechanics\projects\common\ic_020_elect_board_group"
 !
 search_path ".\..\cad-mechanics\projects\icub\icub1_icub2"
 !
