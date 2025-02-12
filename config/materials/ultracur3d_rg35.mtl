@@ -30,8 +30,8 @@ PARAMETERS =
 {
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
-  Default = 'ABS-like for stereolitography
-Source: datasheet from Xometry supplier'
+  Default = 'ABS-like for SLA
+Source: datasheet from Xometry'
   Access = Full
 },
 {
@@ -61,7 +61,7 @@ Source: datasheet from Xometry supplier'
 {
   Name = PTC_YOUNG_MODULUS
   Type = Real
-  Default = 2.300000e+03 N / mm^2
+  Default = 2.600000e+06 kg / (mm sec^2)
   Access = Full
 },
 {
@@ -79,7 +79,19 @@ Source: datasheet from Xometry supplier'
 {
   Name = PTC_DEFAULT_APPEARANCE
   Type = String
-  Default = 'sls-nylon-pa6-white'
+  Default = '<ral 9004> - 2'
+  Access = Full
+},
+{
+  Name = PTC_TENSILE_YIELD_STRESS
+  Type = Real
+  Default = 2.300000e+00 MPa
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_1
+  Type = String
+  Default = '<ral 9004> - 2'
   Access = Full
 }
 
