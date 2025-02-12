@@ -30,8 +30,8 @@ PARAMETERS =
 {
   Name = PTC_MATERIAL_DESCRIPTION
   Type = String
-  Default = 'Flexible, silicone-like material for stereolitography.
-Src: Xometry datasheet'
+  Default = 'Flexible, silicone-like material for SLA
+Src: datasheet from Xometry'
   Access = Full
 },
 {
@@ -55,7 +55,7 @@ Src: Xometry datasheet'
 {
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 1.130000e+00 g / cm^3
+  Default = 1.130000e-06 kg / mm^3
   Access = Full
 },
 {
@@ -67,13 +67,25 @@ Src: Xometry datasheet'
 {
   Name = PTC_TENSILE_ULTIMATE_STRESS
   Type = Real
-  Default = 8.900000e+00 MPa
+  Default = 8.900000e+03 kPa
   Access = Full
 },
 {
   Name = PTC_YOUNG_MODULUS
   Type = Real
-  Default = 3.000000e+00 MPa
+  Default = 3.000000e+03 kPa
+  Access = Full
+},
+{
+  Name = PTC_DEFAULT_APPEARANCE
+  Type = String
+  Default = '<rubber-grey>'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_1
+  Type = String
+  Default = '<rubber-grey>'
   Access = Full
 }
 
