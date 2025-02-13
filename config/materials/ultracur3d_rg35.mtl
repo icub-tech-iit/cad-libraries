@@ -67,7 +67,7 @@ Source: datasheet from Xometry'
 {
   Name = PTC_TENSILE_ULTIMATE_STRESS
   Type = Real
-  Default = 6.200000e+01 MPa
+  Default = 8.000000e+01 MPa
   Access = Full
 },
 {
@@ -83,9 +83,9 @@ Source: datasheet from Xometry'
   Access = Full
 },
 {
-  Name = PTC_TENSILE_YIELD_STRESS
-  Type = Real
-  Default = 1.080000e+02 MPa
+  Name = PTC_APPEARANCE_1
+  Type = String
+  Default = '<plastic-injected-grey>'
   Access = Full
 }
 

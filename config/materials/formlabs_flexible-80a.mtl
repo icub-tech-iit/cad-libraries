@@ -55,7 +55,7 @@ Src: datasheet from Xometry'
 {
   Name = PTC_MASS_DENSITY
   Type = Real
-  Default = 1.130000e-06 kg / mm^3
+  Default = 1.200000e-06 kg / mm^3
   Access = Full
 },
 {
@@ -73,17 +73,11 @@ Src: datasheet from Xometry'
 {
   Name = PTC_YOUNG_MODULUS
   Type = Real
-  Default = 3.000000e+03 kPa
+  Default = 6.300000e+00 MPa
   Access = Full
 },
 {
   Name = PTC_DEFAULT_APPEARANCE
-  Type = String
-  Default = '<rubber-grey>'
-  Access = Full
-},
-{
-  Name = PTC_APPEARANCE_1
   Type = String
   Default = '<rubber-grey>'
   Access = Full
