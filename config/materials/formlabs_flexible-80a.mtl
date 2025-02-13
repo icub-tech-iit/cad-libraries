@@ -73,11 +73,17 @@ Src: datasheet from Xometry'
 {
   Name = PTC_YOUNG_MODULUS
   Type = Real
-  Default = 6.300000e+00 MPa
+  Default = 6.300000e+03 kPa
   Access = Full
 },
 {
   Name = PTC_DEFAULT_APPEARANCE
+  Type = String
+  Default = '<rubber-grey>'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_1
   Type = String
   Default = '<rubber-grey>'
   Access = Full

@@ -85,12 +85,6 @@ Source: datasheet from Xometry '
 {
   Name = PTC_APPEARANCE_1
   Type = String
-  Default = 'plastic-matte-grey'
-  Access = Full
-},
-{
-  Name = PTC_APPEARANCE_2
-  Type = String
   Default = 'plastic-injected-grey'
   Access = Full
 }
