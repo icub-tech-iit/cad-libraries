@@ -149,8 +149,8 @@ foreach ($file in $sourceFiles) {
 # ----------------------------------------
 # 6. Generate and Save Report
 # ----------------------------------------
-# Save the report in the folder where the script is run with extension .report.
-$reportFile = Join-Path (Get-Location) 'drawings_report.report'
+# Save the report in the source folder with the name "DRAWINGS COPY REPORT.md".
+$reportFile = Join-Path $sourceFolder "DRAWINGS COPY REPORT.md"
 $reportContent = @()
 $reportContent += "Drawings Report"
 $reportContent += "==============="
