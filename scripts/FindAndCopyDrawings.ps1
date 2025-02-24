@@ -1,3 +1,36 @@
+<#
+DESCRIPTION:
+  The FindAndCopyDrawings.ps1 script automates the process of locating and copying drawing files that are associated with part and assembly files.
+
+  WHAT IT DOES:
+  1. Prompts the user to select a source folder that contains only part and assembly files (with extensions .prt.1 and .asm.1).
+  2. Prompts the user to select a search path file (.pro). This file contains lines with search paths (ignoring any lines that start with "!" as comments).
+  3. Defines a "default base" as the parent folder of the script's directory.
+     - For search paths starting with ".\", the script appends the remainder to the default base.
+     - For search paths starting with ".\..\", the script goes up one more level (using the parent of the default base) and then appends the remainder.
+  4. Scans the source folder for files ending with .prt.1 and .asm.1.
+  5. For each source file, extracts its base name and searches all resolved search paths for a drawing file named <baseName>.drw.1.
+  6. If exactly one matching drawing is found, it is copied into the source folder.
+  7. Generates a report listing:
+     - Files for which no drawing was found,
+     - Files for which multiple drawings were found,
+     - Files with a single drawing that was successfully copied.
+  8. Saves the report in the source folder as "DRAWINGS COPY REPORT.md".
+
+USAGE:
+  1. Open PowerShell and navigate to the "cad-libraries\scripts" folder.
+  2. Run the script by executing:
+       .\FindAndCopyDrawings.ps1
+  3. When prompted, select the source folder containing your .prt.1 and .asm.1 files.
+  4. When prompted, select the .pro search path file.
+  5. The script will process the files, copy any found drawing files (.drw.1) into the source folder, and create a report named "DRAWINGS COPY REPORT.md" in that folder.
+
+NOTE:
+  Ensure that the .pro file follows the expected format with lines such as:
+       search_path ".\..\cad-mechanics\projects\..."
+  Lines starting with "!" are treated as comments and ignored.
+#>
+
 Add-Type -AssemblyName System.Windows.Forms
 
 # ----------------------------------------
