@@ -1,9 +1,0 @@
-       Error Diagnostics for Analysis/Assembly Failure
-
-  All position constraints can't be simultaneously satisfied. 
-The following position constraints can't be satisfied:
-
-
-1) The following kinematic loop can't be closed: Ground - body21 - Ground.
-
-
