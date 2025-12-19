@@ -19,7 +19,9 @@
 !   012	   2022/11/24  protopapa added lower arm path (but wondering if it is worth to manually fill this list anymore)
 !   013    2023/08/01   Savoldi  Added "ic_020_elect_board_group" and "FT_Sensor_fake" for ergocub 2 arm setup
 !   014    2024/08/07   Savoldi  Added folders for battery pack in cad-mechanics
-!   014    2025/02/12   Savoldi  Added folders for electronic board assembly IC_020
+!   015    2025/02/12   Savoldi  Added folders for electronic board assembly IC_020
+!   
+!   From 19/12/2025 it was decided to stop compiling the history above and rely upon git versioning
 !
 !
 ! ----------------------Libraries parts-----------------------------------------
@@ -88,8 +90,7 @@ search_path ".\..\cad-mechanics\projects\icub\koroibot"
 search_path ".\..\cad-mechanics\projects\simulation_model"
 search_path ".\..\cad-mechanics\projects\simulation_model\head"
 search_path ".\..\cad-mechanics\projects\simulation_model\icub3"
-search_path ".\..\cad-mechanics\projects\simulation_model\ergocub_1-0"
-search_path ".\..\cad-mechanics\projects\simulation_model\ergocub_1-x"
+search_path ".\..\cad-mechanics\projects\simulation_model\ergocub"
 search_path ".\..\cad-mechanics\projects\simulation_model\cer"
 !
 search_path ".\..\cad-mechanics\projects\tools"
