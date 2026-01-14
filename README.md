@@ -18,4 +18,4 @@ This repository is maintained by:
 
 | | |
 |:---:|:---:|
-| [<img src="https://github.com/marcellosavoldi.png" width="40">](https://github.com/marcellosavoldi) | [@marcellosavoldi](https://github.com/marcellosavoldi) |
+| [<img src="https://github.com/Lawproto.png" width="40">](https://github.com/Lawproto) | [@Lawproto](https://github.com/Lawproto) |
