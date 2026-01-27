@@ -11,7 +11,7 @@ assignees: ''
 |:---------------------|:---------------------------------------|
 | Applicant            | Name Surname, @username                |
 | Supervisor           | Name Surname, @username                |
-| Maintainer           | Marcello Savoldi, @marcellosavoldi     |
+| Maintainer           | Lorenzo Protopapa, @Lawproto           |
 | Coworkers            | @icub-tech-iit/silo-mech               |
 
 ## Description of the task
