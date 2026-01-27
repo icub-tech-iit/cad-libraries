@@ -14,7 +14,7 @@ assignees: ''
 | IIT-Code      | [if available]                     |
 | Applicant     | Name Surname, @username            |
 | Supervisor    | Name Surname, @username            |
-| Maintainer    | Marcello Savoldi, @marcellosavoldi |
+| Maintainer    | Lorenzo Protopapa, @Lawproto       |
 | Coworkers     | @icub-tech-iit/silo-mech           |
 
 
