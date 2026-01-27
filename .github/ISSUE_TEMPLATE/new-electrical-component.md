@@ -14,7 +14,7 @@ assignees: ''
 | Alias Creo         | [Alias or filename MCAD] \**          |       |
 | MCAD Contact       | Name Surname, @username               |       |
 | ECAD Contact       | Name Surname, @username               |       |
-| Maintainer         | Marcello Savoldi, @marcellosavoldi    |       |
+| Maintainer         | Lorenzo Protopapa, @Lawproto          |       |
 
 Legend:  
  - "\*" = To compile only if this information are missing in the database (Wingst)  
