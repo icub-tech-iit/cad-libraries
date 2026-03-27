@@ -183,6 +183,6 @@ search_path ".\..\cad-mechanics\projects\gadgets\ig_042_emika_to_xhand1_adapter"
 
 ! ----------------------Jointlabs-----------------------------------------
 
-search_path ".\..\project-jl2-camozzi\projects
-search_path ".\..\project-jl2-camozzi\grippers
+search_path ".\..\project-jl2-camozzi\projects"
+search_path ".\..\project-jl2-camozzi\grippers"
 
