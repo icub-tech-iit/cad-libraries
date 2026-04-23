@@ -141,7 +141,7 @@ trail_dir .\config\trail
 !
 ! User Interface __________________________________________
 !
-mdl_tree_cfg_file .\config\asm_model_tree.cfg
+!mdl_tree_cfg_file .\config\tree.cfg
 ! options for keeping the English language
 menu_translation no
 dialog_translation no
